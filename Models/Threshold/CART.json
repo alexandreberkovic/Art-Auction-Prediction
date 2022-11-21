@@ -1,0 +1,6001 @@
+{
+  "max_depth": 5,
+  "minbucket": 1,
+  "weighted_minbucket": 1,
+  "cp": 0.0008955095069034802,
+  "cp_tuning_se_tolerance": 0.0,
+  "localsearch": false,
+  "max_categoric_levels_before_warning": 10,
+  "ls_num_tree_restarts": 100,
+  "ls_num_hyper_restarts": 5,
+  "ls_num_categoric_restarts": 10,
+  "ls_num_greedy_features": "auto",
+  "ls_bootstrap_samples": false,
+  "ls_ignore_errors": false,
+  "ls_warmstart_criterion": "gini",
+  "ls_max_search_iterations": 9223372036854775807,
+  "ls_max_hyper_iterations": 9223372036854775807,
+  "ls_scan_reverse_split": false,
+  "fast_num_support_iterations": 1,
+  "fast_num_support_restarts": 0,
+  "fast_cumulative_support": true,
+  "fast_test_intermediate_support": true,
+  "missingdatamode": "none",
+  "split_features": {
+    "All": []
+  },
+  "hyperplane_config": [],
+  "refit_learner": null,
+  "checkpoint_interval": 10,
+  "tree_": {
+    "node_count": 23,
+    "nodes": [
+      {
+        "id": 1,
+        "parent": -2,
+        "lower_child": 2,
+        "upper_child": 15,
+        "depth": 0,
+        "split_type": "MIXED",
+        "split_mixed": {
+          "parallel_split": {
+            "feature": 81,
+            "threshold": 0.5
+          },
+          "ordinal_split": {
+            "feature": 0,
+            "split": []
+          },
+          "categoric_split": {
+            "feature": 81,
+            "split": [
+              false
+            ]
+          },
+          "do_parallel": true,
+          "do_ordinal": false
+        },
+        "split_hyperplane": {
+          "standardized_weights": {
+            "n": 112,
+            "nzval": [],
+            "nzind": []
+          },
+          "threshold": 0.0,
+          "weights": {
+            "n": 112,
+            "nzval": [],
+            "nzind": []
+          },
+          "complexity": 0.0
+        },
+        "missingdatamode": "NONE",
+        "raw_error": 1207.5486926495514,
+        "baseline_error": 1351.3425828392574,
+        "subtree_complexity": 11.0,
+        "n_node_samples": 33227,
+        "weighted_n_node_samples": 33227.0,
+        "orig_raw_error": 1207.5486926495514,
+        "orig_baseline_error": 1351.3425828392574,
+        "dirty": false,
+        "fit": {
+          "class": 2,
+          "weighted_probs": [
+            0.020766244319378818,
+            0.9792337556806212
+          ],
+          "probs": [
+            0.020766244319378818,
+            0.9792337556806212
+          ],
+          "sizes": [
+            690,
+            32537
+          ],
+          "logistic_fit": {
+            "beta": {
+              "n": 112,
+              "nzval": [],
+              "nzind": []
+            },
+            "offset": null,
+            "standardized_beta": {
+              "n": 112,
+              "nzval": [],
+              "nzind": []
+            },
+            "constant_offset": null,
+            "constant_error": 1351.3425828392574
+          }
+        }
+      },
+      {
+        "id": 2,
+        "parent": 1,
+        "lower_child": 3,
+        "upper_child": 12,
+        "depth": 1,
+        "split_type": "MIXED",
+        "split_mixed": {
+          "parallel_split": {
+            "feature": 87,
+            "threshold": 0.5
+          },
+          "ordinal_split": {
+            "feature": 0,
+            "split": []
+          },
+          "categoric_split": {
+            "feature": 87,
+            "split": [
+              false
+            ]
+          },
+          "do_parallel": true,
+          "do_ordinal": false
+        },
+        "split_hyperplane": {
+          "standardized_weights": {
+            "n": 112,
+            "nzval": [],
+            "nzind": []
+          },
+          "threshold": 0.0,
+          "weights": {
+            "n": 112,
+            "nzval": [],
+            "nzind": []
+          },
+          "complexity": 0.0
+        },
+        "missingdatamode": "NONE",
+        "raw_error": 437.47680516204485,
+        "baseline_error": 470.036621507199,
+        "subtree_complexity": 6.0,
+        "n_node_samples": 28344,
+        "weighted_n_node_samples": 28344.0,
+        "orig_raw_error": 437.47680516204485,
+        "orig_baseline_error": 470.036621507199,
+        "dirty": false,
+        "fit": {
+          "class": 2,
+          "weighted_probs": [
+            0.00836155800169348,
+            0.9916384419983065
+          ],
+          "probs": [
+            0.00836155800169348,
+            0.9916384419983065
+          ],
+          "sizes": [
+            237,
+            28107
+          ],
+          "logistic_fit": {
+            "beta": {
+              "n": 112,
+              "nzval": [],
+              "nzind": []
+            },
+            "offset": null,
+            "standardized_beta": {
+              "n": 112,
+              "nzval": [],
+              "nzind": []
+            },
+            "constant_offset": null,
+            "constant_error": 470.036621507199
+          }
+        }
+      },
+      {
+        "id": 3,
+        "parent": 2,
+        "lower_child": 4,
+        "upper_child": 5,
+        "depth": 2,
+        "split_type": "MIXED",
+        "split_mixed": {
+          "parallel_split": {
+            "feature": 10,
+            "threshold": 38536.5
+          },
+          "ordinal_split": {
+            "feature": 0,
+            "split": []
+          },
+          "categoric_split": {
+            "feature": 10,
+            "split": [
+              false
+            ]
+          },
+          "do_parallel": true,
+          "do_ordinal": false
+        },
+        "split_hyperplane": {
+          "standardized_weights": {
+            "n": 112,
+            "nzval": [],
+            "nzind": []
+          },
+          "threshold": 0.0,
+          "weights": {
+            "n": 112,
+            "nzval": [],
+            "nzind": []
+          },
+          "complexity": 0.0
+        },
+        "missingdatamode": "NONE",
+        "raw_error": 360.5347202199599,
+        "baseline_error": 377.42428026114067,
+        "subtree_complexity": 4.0,
+        "n_node_samples": 28031,
+        "weighted_n_node_samples": 28031.0,
+        "orig_raw_error": 360.5347202199599,
+        "orig_baseline_error": 377.42428026114067,
+        "dirty": false,
+        "fit": {
+          "class": 2,
+          "weighted_probs": [
+            0.006778209839106704,
+            0.9932217901608933
+          ],
+          "probs": [
+            0.006778209839106704,
+            0.9932217901608933
+          ],
+          "sizes": [
+            190,
+            27841
+          ],
+          "logistic_fit": {
+            "beta": {
+              "n": 112,
+              "nzval": [],
+              "nzind": []
+            },
+            "offset": null,
+            "standardized_beta": {
+              "n": 112,
+              "nzval": [],
+              "nzind": []
+            },
+            "constant_offset": null,
+            "constant_error": 377.42428026114067
+          }
+        }
+      },
+      {
+        "id": 4,
+        "parent": 3,
+        "lower_child": 5,
+        "upper_child": 6,
+        "depth": 3,
+        "split_type": "LEAF",
+        "split_mixed": {
+          "parallel_split": {
+            "feature": 0,
+            "threshold": 0.0
+          },
+          "ordinal_split": {
+            "feature": 0,
+            "split": []
+          },
+          "categoric_split": {
+            "feature": 0,
+            "split": [
+              false
+            ]
+          },
+          "do_parallel": true,
+          "do_ordinal": false
+        },
+        "split_hyperplane": {
+          "standardized_weights": {
+            "n": 112,
+            "nzval": [],
+            "nzind": []
+          },
+          "threshold": 0.0,
+          "weights": {
+            "n": 112,
+            "nzval": [],
+            "nzind": []
+          },
+          "complexity": 0.0
+        },
+        "missingdatamode": "NONE",
+        "raw_error": 147.3517786561265,
+        "baseline_error": 147.3517786561265,
+        "subtree_complexity": 0.0,
+        "n_node_samples": 1012,
+        "weighted_n_node_samples": 1012.0,
+        "orig_raw_error": 147.3517786561265,
+        "orig_baseline_error": 147.3517786561265,
+        "dirty": false,
+        "fit": {
+          "class": 1,
+          "weighted_probs": [
+            0.07905138339920949,
+            0.9209486166007905
+          ],
+          "probs": [
+            0.07905138339920949,
+            0.9209486166007905
+          ],
+          "sizes": [
+            80,
+            932
+          ],
+          "logistic_fit": {
+            "beta": {
+              "n": 112,
+              "nzval": [],
+              "nzind": []
+            },
+            "offset": null,
+            "standardized_beta": {
+              "n": 112,
+              "nzval": [],
+              "nzind": []
+            },
+            "constant_offset": null,
+            "constant_error": 147.3517786561265
+          }
+        }
+      },
+      {
+        "id": 5,
+        "parent": 3,
+        "lower_child": 6,
+        "upper_child": 9,
+        "depth": 3,
+        "split_type": "MIXED",
+        "split_mixed": {
+          "parallel_split": {
+            "feature": 89,
+            "threshold": 0.5
+          },
+          "ordinal_split": {
+            "feature": 0,
+            "split": []
+          },
+          "categoric_split": {
+            "feature": 89,
+            "split": [
+              false
+            ]
+          },
+          "do_parallel": true,
+          "do_ordinal": false
+        },
+        "split_hyperplane": {
+          "standardized_weights": {
+            "n": 112,
+            "nzval": [],
+            "nzind": []
+          },
+          "threshold": 0.0,
+          "weights": {
+            "n": 112,
+            "nzval": [],
+            "nzind": []
+          },
+          "complexity": 0.0
+        },
+        "missingdatamode": "NONE",
+        "raw_error": 213.1829415638334,
+        "baseline_error": 219.10433398719397,
+        "subtree_complexity": 3.0,
+        "n_node_samples": 27019,
+        "weighted_n_node_samples": 27019.0,
+        "orig_raw_error": 213.1829415638334,
+        "orig_baseline_error": 219.10433398719397,
+        "dirty": false,
+        "fit": {
+          "class": 2,
+          "weighted_probs": [
+            0.004071209149117288,
+            0.9959287908508827
+          ],
+          "probs": [
+            0.004071209149117288,
+            0.9959287908508827
+          ],
+          "sizes": [
+            110,
+            26909
+          ],
+          "logistic_fit": {
+            "beta": {
+              "n": 112,
+              "nzval": [],
+              "nzind": []
+            },
+            "offset": null,
+            "standardized_beta": {
+              "n": 112,
+              "nzval": [],
+              "nzind": []
+            },
+            "constant_offset": null,
+            "constant_error": 219.10433398719397
+          }
+        }
+      },
+      {
+        "id": 6,
+        "parent": 5,
+        "lower_child": 7,
+        "upper_child": 8,
+        "depth": 4,
+        "split_type": "MIXED",
+        "split_mixed": {
+          "parallel_split": {
+            "feature": 97,
+            "threshold": 0.5
+          },
+          "ordinal_split": {
+            "feature": 0,
+            "split": []
+          },
+          "categoric_split": {
+            "feature": 97,
+            "split": [
+              false
+            ]
+          },
+          "do_parallel": true,
+          "do_ordinal": false
+        },
+        "split_hyperplane": {
+          "standardized_weights": {
+            "n": 112,
+            "nzval": [],
+            "nzind": []
+          },
+          "threshold": 0.0,
+          "weights": {
+            "n": 112,
+            "nzval": [],
+            "nzind": []
+          },
+          "complexity": 0.0
+        },
+        "missingdatamode": "NONE",
+        "raw_error": 150.04120928036886,
+        "baseline_error": 151.56002437537973,
+        "subtree_complexity": 1.0,
+        "n_node_samples": 26256,
+        "weighted_n_node_samples": 26256.0,
+        "orig_raw_error": 150.04120928036886,
+        "orig_baseline_error": 151.56002437537973,
+        "dirty": false,
+        "fit": {
+          "class": 2,
+          "weighted_probs": [
+            0.002894576477757465,
+            0.9971054235222425
+          ],
+          "probs": [
+            0.002894576477757465,
+            0.9971054235222425
+          ],
+          "sizes": [
+            76,
+            26180
+          ],
+          "logistic_fit": {
+            "beta": {
+              "n": 112,
+              "nzval": [],
+              "nzind": []
+            },
+            "offset": null,
+            "standardized_beta": {
+              "n": 112,
+              "nzval": [],
+              "nzind": []
+            },
+            "constant_offset": null,
+            "constant_error": 151.56002437537973
+          }
+        }
+      },
+      {
+        "id": 7,
+        "parent": 6,
+        "lower_child": -2,
+        "upper_child": -2,
+        "depth": 5,
+        "split_type": "LEAF",
+        "split_mixed": {
+          "parallel_split": {
+            "feature": 0,
+            "threshold": 0.0
+          },
+          "ordinal_split": {
+            "feature": 0,
+            "split": []
+          },
+          "categoric_split": {
+            "feature": 0,
+            "split": [
+              false
+            ]
+          },
+          "do_parallel": false,
+          "do_ordinal": false
+        },
+        "split_hyperplane": {
+          "standardized_weights": {
+            "n": 112,
+            "nzval": [],
+            "nzind": []
+          },
+          "threshold": 0.0,
+          "weights": {
+            "n": 112,
+            "nzval": [],
+            "nzind": []
+          },
+          "complexity": 0.0
+        },
+        "missingdatamode": "NONE",
+        "raw_error": 129.676344415504,
+        "baseline_error": 129.676344415504,
+        "subtree_complexity": 0.0,
+        "n_node_samples": 26108,
+        "weighted_n_node_samples": 26108.0,
+        "orig_raw_error": 129.676344415504,
+        "orig_baseline_error": 129.676344415504,
+        "dirty": false,
+        "fit": {
+          "class": 2,
+          "weighted_probs": [
+            0.0024896583422705683,
+            0.9975103416577294
+          ],
+          "probs": [
+            0.0024896583422705683,
+            0.9975103416577294
+          ],
+          "sizes": [
+            65,
+            26043
+          ],
+          "logistic_fit": {
+            "beta": {
+              "n": 112,
+              "nzval": [],
+              "nzind": []
+            },
+            "offset": null,
+            "standardized_beta": {
+              "n": 112,
+              "nzval": [],
+              "nzind": []
+            },
+            "constant_offset": null,
+            "constant_error": 129.676344415504
+          }
+        }
+      },
+      {
+        "id": 8,
+        "parent": 6,
+        "lower_child": -2,
+        "upper_child": -2,
+        "depth": 5,
+        "split_type": "LEAF",
+        "split_mixed": {
+          "parallel_split": {
+            "feature": 0,
+            "threshold": 0.0
+          },
+          "ordinal_split": {
+            "feature": 0,
+            "split": []
+          },
+          "categoric_split": {
+            "feature": 0,
+            "split": [
+              false
+            ]
+          },
+          "do_parallel": false,
+          "do_ordinal": false
+        },
+        "split_hyperplane": {
+          "standardized_weights": {
+            "n": 112,
+            "nzval": [],
+            "nzind": []
+          },
+          "threshold": 0.0,
+          "weights": {
+            "n": 112,
+            "nzval": [],
+            "nzind": []
+          },
+          "complexity": 0.0
+        },
+        "missingdatamode": "NONE",
+        "raw_error": 20.36486486486487,
+        "baseline_error": 20.36486486486487,
+        "subtree_complexity": 0.0,
+        "n_node_samples": 148,
+        "weighted_n_node_samples": 148.0,
+        "orig_raw_error": 20.36486486486487,
+        "orig_baseline_error": 20.36486486486487,
+        "dirty": false,
+        "fit": {
+          "class": 1,
+          "weighted_probs": [
+            0.07432432432432433,
+            0.9256756756756757
+          ],
+          "probs": [
+            0.07432432432432433,
+            0.9256756756756757
+          ],
+          "sizes": [
+            11,
+            137
+          ],
+          "logistic_fit": {
+            "beta": {
+              "n": 112,
+              "nzval": [],
+              "nzind": []
+            },
+            "offset": null,
+            "standardized_beta": {
+              "n": 112,
+              "nzval": [],
+              "nzind": []
+            },
+            "constant_offset": null,
+            "constant_error": 20.36486486486487
+          }
+        }
+      },
+      {
+        "id": 9,
+        "parent": 5,
+        "lower_child": 10,
+        "upper_child": 11,
+        "depth": 4,
+        "split_type": "MIXED",
+        "split_mixed": {
+          "parallel_split": {
+            "feature": 2,
+            "threshold": 147.66
+          },
+          "ordinal_split": {
+            "feature": 0,
+            "split": []
+          },
+          "categoric_split": {
+            "feature": 2,
+            "split": [
+              false
+            ]
+          },
+          "do_parallel": true,
+          "do_ordinal": false
+        },
+        "split_hyperplane": {
+          "standardized_weights": {
+            "n": 112,
+            "nzval": [],
+            "nzind": []
+          },
+          "threshold": 0.0,
+          "weights": {
+            "n": 112,
+            "nzval": [],
+            "nzind": []
+          },
+          "complexity": 0.0
+        },
+        "missingdatamode": "NONE",
+        "raw_error": 63.141732283464535,
+        "baseline_error": 64.96985583224114,
+        "subtree_complexity": 1.0,
+        "n_node_samples": 763,
+        "weighted_n_node_samples": 763.0,
+        "orig_raw_error": 63.141732283464535,
+        "orig_baseline_error": 64.96985583224114,
+        "dirty": false,
+        "fit": {
+          "class": 2,
+          "weighted_probs": [
+            0.04456094364351245,
+            0.9554390563564875
+          ],
+          "probs": [
+            0.04456094364351245,
+            0.9554390563564875
+          ],
+          "sizes": [
+            34,
+            729
+          ],
+          "logistic_fit": {
+            "beta": {
+              "n": 112,
+              "nzval": [],
+              "nzind": []
+            },
+            "offset": null,
+            "standardized_beta": {
+              "n": 112,
+              "nzval": [],
+              "nzind": []
+            },
+            "constant_offset": null,
+            "constant_error": 64.96985583224114
+          }
+        }
+      },
+      {
+        "id": 10,
+        "parent": 9,
+        "lower_child": -2,
+        "upper_child": -2,
+        "depth": 5,
+        "split_type": "LEAF",
+        "split_mixed": {
+          "parallel_split": {
+            "feature": 0,
+            "threshold": 0.0
+          },
+          "ordinal_split": {
+            "feature": 0,
+            "split": []
+          },
+          "categoric_split": {
+            "feature": 0,
+            "split": [
+              false
+            ]
+          },
+          "do_parallel": false,
+          "do_ordinal": false
+        },
+        "split_hyperplane": {
+          "standardized_weights": {
+            "n": 112,
+            "nzval": [],
+            "nzind": []
+          },
+          "threshold": 0.0,
+          "weights": {
+            "n": 112,
+            "nzval": [],
+            "nzind": []
+          },
+          "complexity": 0.0
+        },
+        "missingdatamode": "NONE",
+        "raw_error": 63.141732283464535,
+        "baseline_error": 63.141732283464535,
+        "subtree_complexity": 0.0,
+        "n_node_samples": 762,
+        "weighted_n_node_samples": 762.0,
+        "orig_raw_error": 63.141732283464535,
+        "orig_baseline_error": 63.141732283464535,
+        "dirty": false,
+        "fit": {
+          "class": 2,
+          "weighted_probs": [
+            0.04330708661417323,
+            0.9566929133858267
+          ],
+          "probs": [
+            0.04330708661417323,
+            0.9566929133858267
+          ],
+          "sizes": [
+            33,
+            729
+          ],
+          "logistic_fit": {
+            "beta": {
+              "n": 112,
+              "nzval": [],
+              "nzind": []
+            },
+            "offset": null,
+            "standardized_beta": {
+              "n": 112,
+              "nzval": [],
+              "nzind": []
+            },
+            "constant_offset": null,
+            "constant_error": 63.141732283464535
+          }
+        }
+      },
+      {
+        "id": 11,
+        "parent": 9,
+        "lower_child": -2,
+        "upper_child": -2,
+        "depth": 5,
+        "split_type": "LEAF",
+        "split_mixed": {
+          "parallel_split": {
+            "feature": 0,
+            "threshold": 0.0
+          },
+          "ordinal_split": {
+            "feature": 0,
+            "split": []
+          },
+          "categoric_split": {
+            "feature": 0,
+            "split": [
+              false
+            ]
+          },
+          "do_parallel": false,
+          "do_ordinal": false
+        },
+        "split_hyperplane": {
+          "standardized_weights": {
+            "n": 112,
+            "nzval": [],
+            "nzind": []
+          },
+          "threshold": 0.0,
+          "weights": {
+            "n": 112,
+            "nzval": [],
+            "nzind": []
+          },
+          "complexity": 0.0
+        },
+        "missingdatamode": "NONE",
+        "raw_error": 0.0,
+        "baseline_error": 0.0,
+        "subtree_complexity": 0.0,
+        "n_node_samples": 1,
+        "weighted_n_node_samples": 1.0,
+        "orig_raw_error": 0.0,
+        "orig_baseline_error": 0.0,
+        "dirty": false,
+        "fit": {
+          "class": 1,
+          "weighted_probs": [
+            1.0,
+            0.0
+          ],
+          "probs": [
+            1.0,
+            0.0
+          ],
+          "sizes": [
+            1,
+            0
+          ],
+          "logistic_fit": {
+            "beta": {
+              "n": 112,
+              "nzval": [],
+              "nzind": []
+            },
+            "offset": null,
+            "standardized_beta": {
+              "n": 112,
+              "nzval": [],
+              "nzind": []
+            },
+            "constant_offset": null,
+            "constant_error": 0.0
+          }
+        }
+      },
+      {
+        "id": 12,
+        "parent": 2,
+        "lower_child": 13,
+        "upper_child": 14,
+        "depth": 2,
+        "split_type": "MIXED",
+        "split_mixed": {
+          "parallel_split": {
+            "feature": 100,
+            "threshold": 0.5
+          },
+          "ordinal_split": {
+            "feature": 0,
+            "split": []
+          },
+          "categoric_split": {
+            "feature": 100,
+            "split": [
+              false
+            ]
+          },
+          "do_parallel": true,
+          "do_ordinal": false
+        },
+        "split_hyperplane": {
+          "standardized_weights": {
+            "n": 112,
+            "nzval": [],
+            "nzind": []
+          },
+          "threshold": 0.0,
+          "weights": {
+            "n": 112,
+            "nzval": [],
+            "nzind": []
+          },
+          "complexity": 0.0
+        },
+        "missingdatamode": "NONE",
+        "raw_error": 76.94208494208493,
+        "baseline_error": 79.8849840255591,
+        "subtree_complexity": 1.0,
+        "n_node_samples": 313,
+        "weighted_n_node_samples": 313.0,
+        "orig_raw_error": 76.94208494208493,
+        "orig_baseline_error": 79.8849840255591,
+        "dirty": false,
+        "fit": {
+          "class": 1,
+          "weighted_probs": [
+            0.1501597444089457,
+            0.8498402555910544
+          ],
+          "probs": [
+            0.1501597444089457,
+            0.8498402555910544
+          ],
+          "sizes": [
+            47,
+            266
+          ],
+          "logistic_fit": {
+            "beta": {
+              "n": 112,
+              "nzval": [],
+              "nzind": []
+            },
+            "offset": null,
+            "standardized_beta": {
+              "n": 112,
+              "nzval": [],
+              "nzind": []
+            },
+            "constant_offset": null,
+            "constant_error": 79.8849840255591
+          }
+        }
+      },
+      {
+        "id": 13,
+        "parent": 12,
+        "lower_child": -2,
+        "upper_child": -2,
+        "depth": 3,
+        "split_type": "LEAF",
+        "split_mixed": {
+          "parallel_split": {
+            "feature": 0,
+            "threshold": 0.0
+          },
+          "ordinal_split": {
+            "feature": 0,
+            "split": []
+          },
+          "categoric_split": {
+            "feature": 0,
+            "split": [
+              false
+            ]
+          },
+          "do_parallel": false,
+          "do_ordinal": false
+        },
+        "split_hyperplane": {
+          "standardized_weights": {
+            "n": 112,
+            "nzval": [],
+            "nzind": []
+          },
+          "threshold": 0.0,
+          "weights": {
+            "n": 112,
+            "nzval": [],
+            "nzind": []
+          },
+          "complexity": 0.0
+        },
+        "missingdatamode": "NONE",
+        "raw_error": 0.0,
+        "baseline_error": 0.0,
+        "subtree_complexity": 0.0,
+        "n_node_samples": 54,
+        "weighted_n_node_samples": 54.0,
+        "orig_raw_error": 0.0,
+        "orig_baseline_error": 0.0,
+        "dirty": false,
+        "fit": {
+          "class": 2,
+          "weighted_probs": [
+            0.0,
+            1.0
+          ],
+          "probs": [
+            0.0,
+            1.0
+          ],
+          "sizes": [
+            0,
+            54
+          ],
+          "logistic_fit": {
+            "beta": {
+              "n": 112,
+              "nzval": [],
+              "nzind": []
+            },
+            "offset": null,
+            "standardized_beta": {
+              "n": 112,
+              "nzval": [],
+              "nzind": []
+            },
+            "constant_offset": null,
+            "constant_error": 0.0
+          }
+        }
+      },
+      {
+        "id": 14,
+        "parent": 12,
+        "lower_child": 21,
+        "upper_child": 22,
+        "depth": 3,
+        "split_type": "LEAF",
+        "split_mixed": {
+          "parallel_split": {
+            "feature": 0,
+            "threshold": 0.0
+          },
+          "ordinal_split": {
+            "feature": 0,
+            "split": []
+          },
+          "categoric_split": {
+            "feature": 0,
+            "split": [
+              false
+            ]
+          },
+          "do_parallel": true,
+          "do_ordinal": false
+        },
+        "split_hyperplane": {
+          "standardized_weights": {
+            "n": 112,
+            "nzval": [],
+            "nzind": []
+          },
+          "threshold": 0.0,
+          "weights": {
+            "n": 112,
+            "nzval": [],
+            "nzind": []
+          },
+          "complexity": 0.0
+        },
+        "missingdatamode": "NONE",
+        "raw_error": 76.94208494208493,
+        "baseline_error": 76.94208494208493,
+        "subtree_complexity": 0.0,
+        "n_node_samples": 259,
+        "weighted_n_node_samples": 259.0,
+        "orig_raw_error": 76.94208494208493,
+        "orig_baseline_error": 76.94208494208493,
+        "dirty": false,
+        "fit": {
+          "class": 1,
+          "weighted_probs": [
+            0.18146718146718147,
+            0.8185328185328186
+          ],
+          "probs": [
+            0.18146718146718147,
+            0.8185328185328186
+          ],
+          "sizes": [
+            47,
+            212
+          ],
+          "logistic_fit": {
+            "beta": {
+              "n": 112,
+              "nzval": [],
+              "nzind": []
+            },
+            "offset": null,
+            "standardized_beta": {
+              "n": 112,
+              "nzval": [],
+              "nzind": []
+            },
+            "constant_offset": null,
+            "constant_error": 76.94208494208493
+          }
+        }
+      },
+      {
+        "id": 15,
+        "parent": 1,
+        "lower_child": 16,
+        "upper_child": 17,
+        "depth": 1,
+        "split_type": "MIXED",
+        "split_mixed": {
+          "parallel_split": {
+            "feature": 100,
+            "threshold": 0.5
+          },
+          "ordinal_split": {
+            "feature": 0,
+            "split": []
+          },
+          "categoric_split": {
+            "feature": 100,
+            "split": [
+              false
+            ]
+          },
+          "do_parallel": true,
+          "do_ordinal": false
+        },
+        "split_hyperplane": {
+          "standardized_weights": {
+            "n": 112,
+            "nzval": [],
+            "nzind": []
+          },
+          "threshold": 0.0,
+          "weights": {
+            "n": 112,
+            "nzval": [],
+            "nzind": []
+          },
+          "complexity": 0.0
+        },
+        "missingdatamode": "NONE",
+        "raw_error": 770.0718874875066,
+        "baseline_error": 821.9496211345486,
+        "subtree_complexity": 4.0,
+        "n_node_samples": 4883,
+        "weighted_n_node_samples": 4883.0,
+        "orig_raw_error": 770.0718874875066,
+        "orig_baseline_error": 821.9496211345486,
+        "dirty": false,
+        "fit": {
+          "class": 1,
+          "weighted_probs": [
+            0.09277083759983616,
+            0.9072291624001638
+          ],
+          "probs": [
+            0.09277083759983616,
+            0.9072291624001638
+          ],
+          "sizes": [
+            453,
+            4430
+          ],
+          "logistic_fit": {
+            "beta": {
+              "n": 112,
+              "nzval": [],
+              "nzind": []
+            },
+            "offset": null,
+            "standardized_beta": {
+              "n": 112,
+              "nzval": [],
+              "nzind": []
+            },
+            "constant_offset": null,
+            "constant_error": 821.9496211345486
+          }
+        }
+      },
+      {
+        "id": 16,
+        "parent": 15,
+        "lower_child": -2,
+        "upper_child": -2,
+        "depth": 2,
+        "split_type": "LEAF",
+        "split_mixed": {
+          "parallel_split": {
+            "feature": 0,
+            "threshold": 0.0
+          },
+          "ordinal_split": {
+            "feature": 0,
+            "split": []
+          },
+          "categoric_split": {
+            "feature": 0,
+            "split": [
+              false
+            ]
+          },
+          "do_parallel": false,
+          "do_ordinal": false
+        },
+        "split_hyperplane": {
+          "standardized_weights": {
+            "n": 112,
+            "nzval": [],
+            "nzind": []
+          },
+          "threshold": 0.0,
+          "weights": {
+            "n": 112,
+            "nzval": [],
+            "nzind": []
+          },
+          "complexity": 0.0
+        },
+        "missingdatamode": "NONE",
+        "raw_error": 0.0,
+        "baseline_error": 0.0,
+        "subtree_complexity": 0.0,
+        "n_node_samples": 1453,
+        "weighted_n_node_samples": 1453.0,
+        "orig_raw_error": 0.0,
+        "orig_baseline_error": 0.0,
+        "dirty": false,
+        "fit": {
+          "class": 2,
+          "weighted_probs": [
+            0.0,
+            1.0
+          ],
+          "probs": [
+            0.0,
+            1.0
+          ],
+          "sizes": [
+            0,
+            1453
+          ],
+          "logistic_fit": {
+            "beta": {
+              "n": 112,
+              "nzval": [],
+              "nzind": []
+            },
+            "offset": null,
+            "standardized_beta": {
+              "n": 112,
+              "nzval": [],
+              "nzind": []
+            },
+            "constant_offset": null,
+            "constant_error": 0.0
+          }
+        }
+      },
+      {
+        "id": 17,
+        "parent": 15,
+        "lower_child": 18,
+        "upper_child": 23,
+        "depth": 2,
+        "split_type": "MIXED",
+        "split_mixed": {
+          "parallel_split": {
+            "feature": 3,
+            "threshold": 0.5
+          },
+          "ordinal_split": {
+            "feature": 0,
+            "split": []
+          },
+          "categoric_split": {
+            "feature": 3,
+            "split": [
+              false
+            ]
+          },
+          "do_parallel": true,
+          "do_ordinal": false
+        },
+        "split_hyperplane": {
+          "standardized_weights": {
+            "n": 112,
+            "nzval": [],
+            "nzind": []
+          },
+          "threshold": 0.0,
+          "weights": {
+            "n": 112,
+            "nzval": [],
+            "nzind": []
+          },
+          "complexity": 0.0
+        },
+        "missingdatamode": "NONE",
+        "raw_error": 770.0718874875066,
+        "baseline_error": 786.3446064139944,
+        "subtree_complexity": 3.0,
+        "n_node_samples": 3430,
+        "weighted_n_node_samples": 3430.0,
+        "orig_raw_error": 770.0718874875066,
+        "orig_baseline_error": 786.3446064139944,
+        "dirty": false,
+        "fit": {
+          "class": 1,
+          "weighted_probs": [
+            0.13206997084548106,
+            0.867930029154519
+          ],
+          "probs": [
+            0.13206997084548106,
+            0.867930029154519
+          ],
+          "sizes": [
+            453,
+            2977
+          ],
+          "logistic_fit": {
+            "beta": {
+              "n": 112,
+              "nzval": [],
+              "nzind": []
+            },
+            "offset": null,
+            "standardized_beta": {
+              "n": 112,
+              "nzval": [],
+              "nzind": []
+            },
+            "constant_offset": null,
+            "constant_error": 786.3446064139944
+          }
+        }
+      },
+      {
+        "id": 18,
+        "parent": 17,
+        "lower_child": 19,
+        "upper_child": 20,
+        "depth": 3,
+        "split_type": "MIXED",
+        "split_mixed": {
+          "parallel_split": {
+            "feature": 10,
+            "threshold": 49000.0
+          },
+          "ordinal_split": {
+            "feature": 0,
+            "split": []
+          },
+          "categoric_split": {
+            "feature": 10,
+            "split": [
+              false
+            ]
+          },
+          "do_parallel": true,
+          "do_ordinal": false
+        },
+        "split_hyperplane": {
+          "standardized_weights": {
+            "n": 112,
+            "nzval": [],
+            "nzind": []
+          },
+          "threshold": 0.0,
+          "weights": {
+            "n": 112,
+            "nzval": [],
+            "nzind": []
+          },
+          "complexity": 0.0
+        },
+        "missingdatamode": "NONE",
+        "raw_error": 460.0265225959878,
+        "baseline_error": 467.17549668874176,
+        "subtree_complexity": 2.0,
+        "n_node_samples": 2416,
+        "weighted_n_node_samples": 2416.0,
+        "orig_raw_error": 460.0265225959878,
+        "orig_baseline_error": 467.17549668874176,
+        "dirty": false,
+        "fit": {
+          "class": 1,
+          "weighted_probs": [
+            0.10844370860927152,
+            0.8915562913907285
+          ],
+          "probs": [
+            0.10844370860927152,
+            0.8915562913907285
+          ],
+          "sizes": [
+            262,
+            2154
+          ],
+          "logistic_fit": {
+            "beta": {
+              "n": 112,
+              "nzval": [],
+              "nzind": []
+            },
+            "offset": null,
+            "standardized_beta": {
+              "n": 112,
+              "nzval": [],
+              "nzind": []
+            },
+            "constant_offset": null,
+            "constant_error": 467.17549668874176
+          }
+        }
+      },
+      {
+        "id": 19,
+        "parent": 18,
+        "lower_child": 32,
+        "upper_child": 33,
+        "depth": 4,
+        "split_type": "LEAF",
+        "split_mixed": {
+          "parallel_split": {
+            "feature": 0,
+            "threshold": 0.0
+          },
+          "ordinal_split": {
+            "feature": 0,
+            "split": []
+          },
+          "categoric_split": {
+            "feature": 0,
+            "split": [
+              false
+            ]
+          },
+          "do_parallel": true,
+          "do_ordinal": false
+        },
+        "split_hyperplane": {
+          "standardized_weights": {
+            "n": 112,
+            "nzval": [],
+            "nzind": []
+          },
+          "threshold": 0.0,
+          "weights": {
+            "n": 112,
+            "nzval": [],
+            "nzind": []
+          },
+          "complexity": 0.0
+        },
+        "missingdatamode": "NONE",
+        "raw_error": 176.54021244309558,
+        "baseline_error": 176.54021244309558,
+        "subtree_complexity": 0.0,
+        "n_node_samples": 659,
+        "weighted_n_node_samples": 659.0,
+        "orig_raw_error": 176.54021244309558,
+        "orig_baseline_error": 176.54021244309558,
+        "dirty": false,
+        "fit": {
+          "class": 1,
+          "weighted_probs": [
+            0.15933232169954475,
+            0.8406676783004552
+          ],
+          "probs": [
+            0.15933232169954475,
+            0.8406676783004552
+          ],
+          "sizes": [
+            105,
+            554
+          ],
+          "logistic_fit": {
+            "beta": {
+              "n": 112,
+              "nzval": [],
+              "nzind": []
+            },
+            "offset": null,
+            "standardized_beta": {
+              "n": 112,
+              "nzval": [],
+              "nzind": []
+            },
+            "constant_offset": null,
+            "constant_error": 176.54021244309558
+          }
+        }
+      },
+      {
+        "id": 20,
+        "parent": 18,
+        "lower_child": 21,
+        "upper_child": 22,
+        "depth": 4,
+        "split_type": "MIXED",
+        "split_mixed": {
+          "parallel_split": {
+            "feature": 2,
+            "threshold": 63.97499999999999
+          },
+          "ordinal_split": {
+            "feature": 0,
+            "split": []
+          },
+          "categoric_split": {
+            "feature": 2,
+            "split": [
+              false
+            ]
+          },
+          "do_parallel": true,
+          "do_ordinal": false
+        },
+        "split_hyperplane": {
+          "standardized_weights": {
+            "n": 112,
+            "nzval": [],
+            "nzind": []
+          },
+          "threshold": 0.0,
+          "weights": {
+            "n": 112,
+            "nzval": [],
+            "nzind": []
+          },
+          "complexity": 0.0
+        },
+        "missingdatamode": "NONE",
+        "raw_error": 283.4863101528922,
+        "baseline_error": 285.9419464997154,
+        "subtree_complexity": 1.0,
+        "n_node_samples": 1757,
+        "weighted_n_node_samples": 1757.0,
+        "orig_raw_error": 283.4863101528922,
+        "orig_baseline_error": 285.9419464997154,
+        "dirty": false,
+        "fit": {
+          "class": 1,
+          "weighted_probs": [
+            0.08935685828116106,
+            0.910643141718839
+          ],
+          "probs": [
+            0.08935685828116106,
+            0.910643141718839
+          ],
+          "sizes": [
+            157,
+            1600
+          ],
+          "logistic_fit": {
+            "beta": {
+              "n": 112,
+              "nzval": [],
+              "nzind": []
+            },
+            "offset": null,
+            "standardized_beta": {
+              "n": 112,
+              "nzval": [],
+              "nzind": []
+            },
+            "constant_offset": null,
+            "constant_error": 285.9419464997154
+          }
+        }
+      },
+      {
+        "id": 21,
+        "parent": 20,
+        "lower_child": -2,
+        "upper_child": -2,
+        "depth": 5,
+        "split_type": "LEAF",
+        "split_mixed": {
+          "parallel_split": {
+            "feature": 0,
+            "threshold": 0.0
+          },
+          "ordinal_split": {
+            "feature": 0,
+            "split": []
+          },
+          "categoric_split": {
+            "feature": 0,
+            "split": [
+              false
+            ]
+          },
+          "do_parallel": false,
+          "do_ordinal": false
+        },
+        "split_hyperplane": {
+          "standardized_weights": {
+            "n": 112,
+            "nzval": [],
+            "nzind": []
+          },
+          "threshold": 0.0,
+          "weights": {
+            "n": 112,
+            "nzval": [],
+            "nzind": []
+          },
+          "complexity": 0.0
+        },
+        "missingdatamode": "NONE",
+        "raw_error": 279.5307545973367,
+        "baseline_error": 279.5307545973367,
+        "subtree_complexity": 0.0,
+        "n_node_samples": 1577,
+        "weighted_n_node_samples": 1577.0,
+        "orig_raw_error": 279.5307545973367,
+        "orig_baseline_error": 279.5307545973367,
+        "dirty": false,
+        "fit": {
+          "class": 1,
+          "weighted_probs": [
+            0.09828788839568801,
+            0.901712111604312
+          ],
+          "probs": [
+            0.09828788839568801,
+            0.901712111604312
+          ],
+          "sizes": [
+            155,
+            1422
+          ],
+          "logistic_fit": {
+            "beta": {
+              "n": 112,
+              "nzval": [],
+              "nzind": []
+            },
+            "offset": null,
+            "standardized_beta": {
+              "n": 112,
+              "nzval": [],
+              "nzind": []
+            },
+            "constant_offset": null,
+            "constant_error": 279.5307545973367
+          }
+        }
+      },
+      {
+        "id": 22,
+        "parent": 20,
+        "lower_child": -2,
+        "upper_child": -2,
+        "depth": 5,
+        "split_type": "LEAF",
+        "split_mixed": {
+          "parallel_split": {
+            "feature": 0,
+            "threshold": 0.0
+          },
+          "ordinal_split": {
+            "feature": 0,
+            "split": []
+          },
+          "categoric_split": {
+            "feature": 0,
+            "split": [
+              false
+            ]
+          },
+          "do_parallel": false,
+          "do_ordinal": false
+        },
+        "split_hyperplane": {
+          "standardized_weights": {
+            "n": 112,
+            "nzval": [],
+            "nzind": []
+          },
+          "threshold": 0.0,
+          "weights": {
+            "n": 112,
+            "nzval": [],
+            "nzind": []
+          },
+          "complexity": 0.0
+        },
+        "missingdatamode": "NONE",
+        "raw_error": 3.9555555555555486,
+        "baseline_error": 3.9555555555555486,
+        "subtree_complexity": 0.0,
+        "n_node_samples": 180,
+        "weighted_n_node_samples": 180.0,
+        "orig_raw_error": 3.9555555555555486,
+        "orig_baseline_error": 3.9555555555555486,
+        "dirty": false,
+        "fit": {
+          "class": 2,
+          "weighted_probs": [
+            0.011111111111111112,
+            0.9888888888888889
+          ],
+          "probs": [
+            0.011111111111111112,
+            0.9888888888888889
+          ],
+          "sizes": [
+            2,
+            178
+          ],
+          "logistic_fit": {
+            "beta": {
+              "n": 112,
+              "nzval": [],
+              "nzind": []
+            },
+            "offset": null,
+            "standardized_beta": {
+              "n": 112,
+              "nzval": [],
+              "nzind": []
+            },
+            "constant_offset": null,
+            "constant_error": 3.9555555555555486
+          }
+        }
+      },
+      {
+        "id": 23,
+        "parent": 17,
+        "lower_child": 38,
+        "upper_child": 39,
+        "depth": 3,
+        "split_type": "LEAF",
+        "split_mixed": {
+          "parallel_split": {
+            "feature": 0,
+            "threshold": 0.0
+          },
+          "ordinal_split": {
+            "feature": 0,
+            "split": []
+          },
+          "categoric_split": {
+            "feature": 0,
+            "split": [
+              false
+            ]
+          },
+          "do_parallel": true,
+          "do_ordinal": false
+        },
+        "split_hyperplane": {
+          "standardized_weights": {
+            "n": 112,
+            "nzval": [],
+            "nzind": []
+          },
+          "threshold": 0.0,
+          "weights": {
+            "n": 112,
+            "nzval": [],
+            "nzind": []
+          },
+          "complexity": 0.0
+        },
+        "missingdatamode": "NONE",
+        "raw_error": 310.0453648915187,
+        "baseline_error": 310.0453648915187,
+        "subtree_complexity": 0.0,
+        "n_node_samples": 1014,
+        "weighted_n_node_samples": 1014.0,
+        "orig_raw_error": 310.0453648915187,
+        "orig_baseline_error": 310.0453648915187,
+        "dirty": false,
+        "fit": {
+          "class": 1,
+          "weighted_probs": [
+            0.1883629191321499,
+            0.8116370808678501
+          ],
+          "probs": [
+            0.1883629191321499,
+            0.8116370808678501
+          ],
+          "sizes": [
+            191,
+            823
+          ],
+          "logistic_fit": {
+            "beta": {
+              "n": 112,
+              "nzval": [],
+              "nzind": []
+            },
+            "offset": null,
+            "standardized_beta": {
+              "n": 112,
+              "nzval": [],
+              "nzind": []
+            },
+            "constant_offset": null,
+            "constant_error": 310.0453648915187
+          }
+        }
+      }
+    ],
+    "capacity": 23
+  },
+  "all_trees_": [
+    {
+      "node_count": 23,
+      "nodes": [
+        {
+          "id": 1,
+          "parent": -2,
+          "lower_child": 2,
+          "upper_child": 15,
+          "depth": 0,
+          "split_type": "MIXED",
+          "split_mixed": {
+            "parallel_split": {
+              "feature": 81,
+              "threshold": 0.5
+            },
+            "ordinal_split": {
+              "feature": 0,
+              "split": []
+            },
+            "categoric_split": {
+              "feature": 81,
+              "split": [
+                false
+              ]
+            },
+            "do_parallel": true,
+            "do_ordinal": false
+          },
+          "split_hyperplane": {
+            "standardized_weights": {
+              "n": 112,
+              "nzval": [],
+              "nzind": []
+            },
+            "threshold": 0.0,
+            "weights": {
+              "n": 112,
+              "nzval": [],
+              "nzind": []
+            },
+            "complexity": 0.0
+          },
+          "missingdatamode": "NONE",
+          "raw_error": 1207.5486926495514,
+          "baseline_error": 1351.3425828392574,
+          "subtree_complexity": 11.0,
+          "n_node_samples": 33227,
+          "weighted_n_node_samples": 33227.0,
+          "orig_raw_error": 1207.5486926495514,
+          "orig_baseline_error": 1351.3425828392574,
+          "dirty": false,
+          "fit": {
+            "class": 2,
+            "weighted_probs": [
+              0.020766244319378818,
+              0.9792337556806212
+            ],
+            "probs": [
+              0.020766244319378818,
+              0.9792337556806212
+            ],
+            "sizes": [
+              690,
+              32537
+            ],
+            "logistic_fit": {
+              "beta": {
+                "n": 112,
+                "nzval": [],
+                "nzind": []
+              },
+              "offset": null,
+              "standardized_beta": {
+                "n": 112,
+                "nzval": [],
+                "nzind": []
+              },
+              "constant_offset": null,
+              "constant_error": 1351.3425828392574
+            }
+          }
+        },
+        {
+          "id": 2,
+          "parent": 1,
+          "lower_child": 3,
+          "upper_child": 12,
+          "depth": 1,
+          "split_type": "MIXED",
+          "split_mixed": {
+            "parallel_split": {
+              "feature": 87,
+              "threshold": 0.5
+            },
+            "ordinal_split": {
+              "feature": 0,
+              "split": []
+            },
+            "categoric_split": {
+              "feature": 87,
+              "split": [
+                false
+              ]
+            },
+            "do_parallel": true,
+            "do_ordinal": false
+          },
+          "split_hyperplane": {
+            "standardized_weights": {
+              "n": 112,
+              "nzval": [],
+              "nzind": []
+            },
+            "threshold": 0.0,
+            "weights": {
+              "n": 112,
+              "nzval": [],
+              "nzind": []
+            },
+            "complexity": 0.0
+          },
+          "missingdatamode": "NONE",
+          "raw_error": 437.47680516204485,
+          "baseline_error": 470.036621507199,
+          "subtree_complexity": 6.0,
+          "n_node_samples": 28344,
+          "weighted_n_node_samples": 28344.0,
+          "orig_raw_error": 437.47680516204485,
+          "orig_baseline_error": 470.036621507199,
+          "dirty": false,
+          "fit": {
+            "class": 2,
+            "weighted_probs": [
+              0.00836155800169348,
+              0.9916384419983065
+            ],
+            "probs": [
+              0.00836155800169348,
+              0.9916384419983065
+            ],
+            "sizes": [
+              237,
+              28107
+            ],
+            "logistic_fit": {
+              "beta": {
+                "n": 112,
+                "nzval": [],
+                "nzind": []
+              },
+              "offset": null,
+              "standardized_beta": {
+                "n": 112,
+                "nzval": [],
+                "nzind": []
+              },
+              "constant_offset": null,
+              "constant_error": 470.036621507199
+            }
+          }
+        },
+        {
+          "id": 3,
+          "parent": 2,
+          "lower_child": 4,
+          "upper_child": 5,
+          "depth": 2,
+          "split_type": "MIXED",
+          "split_mixed": {
+            "parallel_split": {
+              "feature": 10,
+              "threshold": 38536.5
+            },
+            "ordinal_split": {
+              "feature": 0,
+              "split": []
+            },
+            "categoric_split": {
+              "feature": 10,
+              "split": [
+                false
+              ]
+            },
+            "do_parallel": true,
+            "do_ordinal": false
+          },
+          "split_hyperplane": {
+            "standardized_weights": {
+              "n": 112,
+              "nzval": [],
+              "nzind": []
+            },
+            "threshold": 0.0,
+            "weights": {
+              "n": 112,
+              "nzval": [],
+              "nzind": []
+            },
+            "complexity": 0.0
+          },
+          "missingdatamode": "NONE",
+          "raw_error": 360.5347202199599,
+          "baseline_error": 377.42428026114067,
+          "subtree_complexity": 4.0,
+          "n_node_samples": 28031,
+          "weighted_n_node_samples": 28031.0,
+          "orig_raw_error": 360.5347202199599,
+          "orig_baseline_error": 377.42428026114067,
+          "dirty": false,
+          "fit": {
+            "class": 2,
+            "weighted_probs": [
+              0.006778209839106704,
+              0.9932217901608933
+            ],
+            "probs": [
+              0.006778209839106704,
+              0.9932217901608933
+            ],
+            "sizes": [
+              190,
+              27841
+            ],
+            "logistic_fit": {
+              "beta": {
+                "n": 112,
+                "nzval": [],
+                "nzind": []
+              },
+              "offset": null,
+              "standardized_beta": {
+                "n": 112,
+                "nzval": [],
+                "nzind": []
+              },
+              "constant_offset": null,
+              "constant_error": 377.42428026114067
+            }
+          }
+        },
+        {
+          "id": 4,
+          "parent": 3,
+          "lower_child": 5,
+          "upper_child": 6,
+          "depth": 3,
+          "split_type": "LEAF",
+          "split_mixed": {
+            "parallel_split": {
+              "feature": 0,
+              "threshold": 0.0
+            },
+            "ordinal_split": {
+              "feature": 0,
+              "split": []
+            },
+            "categoric_split": {
+              "feature": 0,
+              "split": [
+                false
+              ]
+            },
+            "do_parallel": true,
+            "do_ordinal": false
+          },
+          "split_hyperplane": {
+            "standardized_weights": {
+              "n": 112,
+              "nzval": [],
+              "nzind": []
+            },
+            "threshold": 0.0,
+            "weights": {
+              "n": 112,
+              "nzval": [],
+              "nzind": []
+            },
+            "complexity": 0.0
+          },
+          "missingdatamode": "NONE",
+          "raw_error": 147.3517786561265,
+          "baseline_error": 147.3517786561265,
+          "subtree_complexity": 0.0,
+          "n_node_samples": 1012,
+          "weighted_n_node_samples": 1012.0,
+          "orig_raw_error": 147.3517786561265,
+          "orig_baseline_error": 147.3517786561265,
+          "dirty": false,
+          "fit": {
+            "class": 1,
+            "weighted_probs": [
+              0.07905138339920949,
+              0.9209486166007905
+            ],
+            "probs": [
+              0.07905138339920949,
+              0.9209486166007905
+            ],
+            "sizes": [
+              80,
+              932
+            ],
+            "logistic_fit": {
+              "beta": {
+                "n": 112,
+                "nzval": [],
+                "nzind": []
+              },
+              "offset": null,
+              "standardized_beta": {
+                "n": 112,
+                "nzval": [],
+                "nzind": []
+              },
+              "constant_offset": null,
+              "constant_error": 147.3517786561265
+            }
+          }
+        },
+        {
+          "id": 5,
+          "parent": 3,
+          "lower_child": 6,
+          "upper_child": 9,
+          "depth": 3,
+          "split_type": "MIXED",
+          "split_mixed": {
+            "parallel_split": {
+              "feature": 89,
+              "threshold": 0.5
+            },
+            "ordinal_split": {
+              "feature": 0,
+              "split": []
+            },
+            "categoric_split": {
+              "feature": 89,
+              "split": [
+                false
+              ]
+            },
+            "do_parallel": true,
+            "do_ordinal": false
+          },
+          "split_hyperplane": {
+            "standardized_weights": {
+              "n": 112,
+              "nzval": [],
+              "nzind": []
+            },
+            "threshold": 0.0,
+            "weights": {
+              "n": 112,
+              "nzval": [],
+              "nzind": []
+            },
+            "complexity": 0.0
+          },
+          "missingdatamode": "NONE",
+          "raw_error": 213.1829415638334,
+          "baseline_error": 219.10433398719397,
+          "subtree_complexity": 3.0,
+          "n_node_samples": 27019,
+          "weighted_n_node_samples": 27019.0,
+          "orig_raw_error": 213.1829415638334,
+          "orig_baseline_error": 219.10433398719397,
+          "dirty": false,
+          "fit": {
+            "class": 2,
+            "weighted_probs": [
+              0.004071209149117288,
+              0.9959287908508827
+            ],
+            "probs": [
+              0.004071209149117288,
+              0.9959287908508827
+            ],
+            "sizes": [
+              110,
+              26909
+            ],
+            "logistic_fit": {
+              "beta": {
+                "n": 112,
+                "nzval": [],
+                "nzind": []
+              },
+              "offset": null,
+              "standardized_beta": {
+                "n": 112,
+                "nzval": [],
+                "nzind": []
+              },
+              "constant_offset": null,
+              "constant_error": 219.10433398719397
+            }
+          }
+        },
+        {
+          "id": 6,
+          "parent": 5,
+          "lower_child": 7,
+          "upper_child": 8,
+          "depth": 4,
+          "split_type": "MIXED",
+          "split_mixed": {
+            "parallel_split": {
+              "feature": 97,
+              "threshold": 0.5
+            },
+            "ordinal_split": {
+              "feature": 0,
+              "split": []
+            },
+            "categoric_split": {
+              "feature": 97,
+              "split": [
+                false
+              ]
+            },
+            "do_parallel": true,
+            "do_ordinal": false
+          },
+          "split_hyperplane": {
+            "standardized_weights": {
+              "n": 112,
+              "nzval": [],
+              "nzind": []
+            },
+            "threshold": 0.0,
+            "weights": {
+              "n": 112,
+              "nzval": [],
+              "nzind": []
+            },
+            "complexity": 0.0
+          },
+          "missingdatamode": "NONE",
+          "raw_error": 150.04120928036886,
+          "baseline_error": 151.56002437537973,
+          "subtree_complexity": 1.0,
+          "n_node_samples": 26256,
+          "weighted_n_node_samples": 26256.0,
+          "orig_raw_error": 150.04120928036886,
+          "orig_baseline_error": 151.56002437537973,
+          "dirty": false,
+          "fit": {
+            "class": 2,
+            "weighted_probs": [
+              0.002894576477757465,
+              0.9971054235222425
+            ],
+            "probs": [
+              0.002894576477757465,
+              0.9971054235222425
+            ],
+            "sizes": [
+              76,
+              26180
+            ],
+            "logistic_fit": {
+              "beta": {
+                "n": 112,
+                "nzval": [],
+                "nzind": []
+              },
+              "offset": null,
+              "standardized_beta": {
+                "n": 112,
+                "nzval": [],
+                "nzind": []
+              },
+              "constant_offset": null,
+              "constant_error": 151.56002437537973
+            }
+          }
+        },
+        {
+          "id": 7,
+          "parent": 6,
+          "lower_child": -2,
+          "upper_child": -2,
+          "depth": 5,
+          "split_type": "LEAF",
+          "split_mixed": {
+            "parallel_split": {
+              "feature": 0,
+              "threshold": 0.0
+            },
+            "ordinal_split": {
+              "feature": 0,
+              "split": []
+            },
+            "categoric_split": {
+              "feature": 0,
+              "split": [
+                false
+              ]
+            },
+            "do_parallel": false,
+            "do_ordinal": false
+          },
+          "split_hyperplane": {
+            "standardized_weights": {
+              "n": 112,
+              "nzval": [],
+              "nzind": []
+            },
+            "threshold": 0.0,
+            "weights": {
+              "n": 112,
+              "nzval": [],
+              "nzind": []
+            },
+            "complexity": 0.0
+          },
+          "missingdatamode": "NONE",
+          "raw_error": 129.676344415504,
+          "baseline_error": 129.676344415504,
+          "subtree_complexity": 0.0,
+          "n_node_samples": 26108,
+          "weighted_n_node_samples": 26108.0,
+          "orig_raw_error": 129.676344415504,
+          "orig_baseline_error": 129.676344415504,
+          "dirty": false,
+          "fit": {
+            "class": 2,
+            "weighted_probs": [
+              0.0024896583422705683,
+              0.9975103416577294
+            ],
+            "probs": [
+              0.0024896583422705683,
+              0.9975103416577294
+            ],
+            "sizes": [
+              65,
+              26043
+            ],
+            "logistic_fit": {
+              "beta": {
+                "n": 112,
+                "nzval": [],
+                "nzind": []
+              },
+              "offset": null,
+              "standardized_beta": {
+                "n": 112,
+                "nzval": [],
+                "nzind": []
+              },
+              "constant_offset": null,
+              "constant_error": 129.676344415504
+            }
+          }
+        },
+        {
+          "id": 8,
+          "parent": 6,
+          "lower_child": -2,
+          "upper_child": -2,
+          "depth": 5,
+          "split_type": "LEAF",
+          "split_mixed": {
+            "parallel_split": {
+              "feature": 0,
+              "threshold": 0.0
+            },
+            "ordinal_split": {
+              "feature": 0,
+              "split": []
+            },
+            "categoric_split": {
+              "feature": 0,
+              "split": [
+                false
+              ]
+            },
+            "do_parallel": false,
+            "do_ordinal": false
+          },
+          "split_hyperplane": {
+            "standardized_weights": {
+              "n": 112,
+              "nzval": [],
+              "nzind": []
+            },
+            "threshold": 0.0,
+            "weights": {
+              "n": 112,
+              "nzval": [],
+              "nzind": []
+            },
+            "complexity": 0.0
+          },
+          "missingdatamode": "NONE",
+          "raw_error": 20.36486486486487,
+          "baseline_error": 20.36486486486487,
+          "subtree_complexity": 0.0,
+          "n_node_samples": 148,
+          "weighted_n_node_samples": 148.0,
+          "orig_raw_error": 20.36486486486487,
+          "orig_baseline_error": 20.36486486486487,
+          "dirty": false,
+          "fit": {
+            "class": 1,
+            "weighted_probs": [
+              0.07432432432432433,
+              0.9256756756756757
+            ],
+            "probs": [
+              0.07432432432432433,
+              0.9256756756756757
+            ],
+            "sizes": [
+              11,
+              137
+            ],
+            "logistic_fit": {
+              "beta": {
+                "n": 112,
+                "nzval": [],
+                "nzind": []
+              },
+              "offset": null,
+              "standardized_beta": {
+                "n": 112,
+                "nzval": [],
+                "nzind": []
+              },
+              "constant_offset": null,
+              "constant_error": 20.36486486486487
+            }
+          }
+        },
+        {
+          "id": 9,
+          "parent": 5,
+          "lower_child": 10,
+          "upper_child": 11,
+          "depth": 4,
+          "split_type": "MIXED",
+          "split_mixed": {
+            "parallel_split": {
+              "feature": 2,
+              "threshold": 147.66
+            },
+            "ordinal_split": {
+              "feature": 0,
+              "split": []
+            },
+            "categoric_split": {
+              "feature": 2,
+              "split": [
+                false
+              ]
+            },
+            "do_parallel": true,
+            "do_ordinal": false
+          },
+          "split_hyperplane": {
+            "standardized_weights": {
+              "n": 112,
+              "nzval": [],
+              "nzind": []
+            },
+            "threshold": 0.0,
+            "weights": {
+              "n": 112,
+              "nzval": [],
+              "nzind": []
+            },
+            "complexity": 0.0
+          },
+          "missingdatamode": "NONE",
+          "raw_error": 63.141732283464535,
+          "baseline_error": 64.96985583224114,
+          "subtree_complexity": 1.0,
+          "n_node_samples": 763,
+          "weighted_n_node_samples": 763.0,
+          "orig_raw_error": 63.141732283464535,
+          "orig_baseline_error": 64.96985583224114,
+          "dirty": false,
+          "fit": {
+            "class": 2,
+            "weighted_probs": [
+              0.04456094364351245,
+              0.9554390563564875
+            ],
+            "probs": [
+              0.04456094364351245,
+              0.9554390563564875
+            ],
+            "sizes": [
+              34,
+              729
+            ],
+            "logistic_fit": {
+              "beta": {
+                "n": 112,
+                "nzval": [],
+                "nzind": []
+              },
+              "offset": null,
+              "standardized_beta": {
+                "n": 112,
+                "nzval": [],
+                "nzind": []
+              },
+              "constant_offset": null,
+              "constant_error": 64.96985583224114
+            }
+          }
+        },
+        {
+          "id": 10,
+          "parent": 9,
+          "lower_child": -2,
+          "upper_child": -2,
+          "depth": 5,
+          "split_type": "LEAF",
+          "split_mixed": {
+            "parallel_split": {
+              "feature": 0,
+              "threshold": 0.0
+            },
+            "ordinal_split": {
+              "feature": 0,
+              "split": []
+            },
+            "categoric_split": {
+              "feature": 0,
+              "split": [
+                false
+              ]
+            },
+            "do_parallel": false,
+            "do_ordinal": false
+          },
+          "split_hyperplane": {
+            "standardized_weights": {
+              "n": 112,
+              "nzval": [],
+              "nzind": []
+            },
+            "threshold": 0.0,
+            "weights": {
+              "n": 112,
+              "nzval": [],
+              "nzind": []
+            },
+            "complexity": 0.0
+          },
+          "missingdatamode": "NONE",
+          "raw_error": 63.141732283464535,
+          "baseline_error": 63.141732283464535,
+          "subtree_complexity": 0.0,
+          "n_node_samples": 762,
+          "weighted_n_node_samples": 762.0,
+          "orig_raw_error": 63.141732283464535,
+          "orig_baseline_error": 63.141732283464535,
+          "dirty": false,
+          "fit": {
+            "class": 2,
+            "weighted_probs": [
+              0.04330708661417323,
+              0.9566929133858267
+            ],
+            "probs": [
+              0.04330708661417323,
+              0.9566929133858267
+            ],
+            "sizes": [
+              33,
+              729
+            ],
+            "logistic_fit": {
+              "beta": {
+                "n": 112,
+                "nzval": [],
+                "nzind": []
+              },
+              "offset": null,
+              "standardized_beta": {
+                "n": 112,
+                "nzval": [],
+                "nzind": []
+              },
+              "constant_offset": null,
+              "constant_error": 63.141732283464535
+            }
+          }
+        },
+        {
+          "id": 11,
+          "parent": 9,
+          "lower_child": -2,
+          "upper_child": -2,
+          "depth": 5,
+          "split_type": "LEAF",
+          "split_mixed": {
+            "parallel_split": {
+              "feature": 0,
+              "threshold": 0.0
+            },
+            "ordinal_split": {
+              "feature": 0,
+              "split": []
+            },
+            "categoric_split": {
+              "feature": 0,
+              "split": [
+                false
+              ]
+            },
+            "do_parallel": false,
+            "do_ordinal": false
+          },
+          "split_hyperplane": {
+            "standardized_weights": {
+              "n": 112,
+              "nzval": [],
+              "nzind": []
+            },
+            "threshold": 0.0,
+            "weights": {
+              "n": 112,
+              "nzval": [],
+              "nzind": []
+            },
+            "complexity": 0.0
+          },
+          "missingdatamode": "NONE",
+          "raw_error": 0.0,
+          "baseline_error": 0.0,
+          "subtree_complexity": 0.0,
+          "n_node_samples": 1,
+          "weighted_n_node_samples": 1.0,
+          "orig_raw_error": 0.0,
+          "orig_baseline_error": 0.0,
+          "dirty": false,
+          "fit": {
+            "class": 1,
+            "weighted_probs": [
+              1.0,
+              0.0
+            ],
+            "probs": [
+              1.0,
+              0.0
+            ],
+            "sizes": [
+              1,
+              0
+            ],
+            "logistic_fit": {
+              "beta": {
+                "n": 112,
+                "nzval": [],
+                "nzind": []
+              },
+              "offset": null,
+              "standardized_beta": {
+                "n": 112,
+                "nzval": [],
+                "nzind": []
+              },
+              "constant_offset": null,
+              "constant_error": 0.0
+            }
+          }
+        },
+        {
+          "id": 12,
+          "parent": 2,
+          "lower_child": 13,
+          "upper_child": 14,
+          "depth": 2,
+          "split_type": "MIXED",
+          "split_mixed": {
+            "parallel_split": {
+              "feature": 100,
+              "threshold": 0.5
+            },
+            "ordinal_split": {
+              "feature": 0,
+              "split": []
+            },
+            "categoric_split": {
+              "feature": 100,
+              "split": [
+                false
+              ]
+            },
+            "do_parallel": true,
+            "do_ordinal": false
+          },
+          "split_hyperplane": {
+            "standardized_weights": {
+              "n": 112,
+              "nzval": [],
+              "nzind": []
+            },
+            "threshold": 0.0,
+            "weights": {
+              "n": 112,
+              "nzval": [],
+              "nzind": []
+            },
+            "complexity": 0.0
+          },
+          "missingdatamode": "NONE",
+          "raw_error": 76.94208494208493,
+          "baseline_error": 79.8849840255591,
+          "subtree_complexity": 1.0,
+          "n_node_samples": 313,
+          "weighted_n_node_samples": 313.0,
+          "orig_raw_error": 76.94208494208493,
+          "orig_baseline_error": 79.8849840255591,
+          "dirty": false,
+          "fit": {
+            "class": 1,
+            "weighted_probs": [
+              0.1501597444089457,
+              0.8498402555910544
+            ],
+            "probs": [
+              0.1501597444089457,
+              0.8498402555910544
+            ],
+            "sizes": [
+              47,
+              266
+            ],
+            "logistic_fit": {
+              "beta": {
+                "n": 112,
+                "nzval": [],
+                "nzind": []
+              },
+              "offset": null,
+              "standardized_beta": {
+                "n": 112,
+                "nzval": [],
+                "nzind": []
+              },
+              "constant_offset": null,
+              "constant_error": 79.8849840255591
+            }
+          }
+        },
+        {
+          "id": 13,
+          "parent": 12,
+          "lower_child": -2,
+          "upper_child": -2,
+          "depth": 3,
+          "split_type": "LEAF",
+          "split_mixed": {
+            "parallel_split": {
+              "feature": 0,
+              "threshold": 0.0
+            },
+            "ordinal_split": {
+              "feature": 0,
+              "split": []
+            },
+            "categoric_split": {
+              "feature": 0,
+              "split": [
+                false
+              ]
+            },
+            "do_parallel": false,
+            "do_ordinal": false
+          },
+          "split_hyperplane": {
+            "standardized_weights": {
+              "n": 112,
+              "nzval": [],
+              "nzind": []
+            },
+            "threshold": 0.0,
+            "weights": {
+              "n": 112,
+              "nzval": [],
+              "nzind": []
+            },
+            "complexity": 0.0
+          },
+          "missingdatamode": "NONE",
+          "raw_error": 0.0,
+          "baseline_error": 0.0,
+          "subtree_complexity": 0.0,
+          "n_node_samples": 54,
+          "weighted_n_node_samples": 54.0,
+          "orig_raw_error": 0.0,
+          "orig_baseline_error": 0.0,
+          "dirty": false,
+          "fit": {
+            "class": 2,
+            "weighted_probs": [
+              0.0,
+              1.0
+            ],
+            "probs": [
+              0.0,
+              1.0
+            ],
+            "sizes": [
+              0,
+              54
+            ],
+            "logistic_fit": {
+              "beta": {
+                "n": 112,
+                "nzval": [],
+                "nzind": []
+              },
+              "offset": null,
+              "standardized_beta": {
+                "n": 112,
+                "nzval": [],
+                "nzind": []
+              },
+              "constant_offset": null,
+              "constant_error": 0.0
+            }
+          }
+        },
+        {
+          "id": 14,
+          "parent": 12,
+          "lower_child": 21,
+          "upper_child": 22,
+          "depth": 3,
+          "split_type": "LEAF",
+          "split_mixed": {
+            "parallel_split": {
+              "feature": 0,
+              "threshold": 0.0
+            },
+            "ordinal_split": {
+              "feature": 0,
+              "split": []
+            },
+            "categoric_split": {
+              "feature": 0,
+              "split": [
+                false
+              ]
+            },
+            "do_parallel": true,
+            "do_ordinal": false
+          },
+          "split_hyperplane": {
+            "standardized_weights": {
+              "n": 112,
+              "nzval": [],
+              "nzind": []
+            },
+            "threshold": 0.0,
+            "weights": {
+              "n": 112,
+              "nzval": [],
+              "nzind": []
+            },
+            "complexity": 0.0
+          },
+          "missingdatamode": "NONE",
+          "raw_error": 76.94208494208493,
+          "baseline_error": 76.94208494208493,
+          "subtree_complexity": 0.0,
+          "n_node_samples": 259,
+          "weighted_n_node_samples": 259.0,
+          "orig_raw_error": 76.94208494208493,
+          "orig_baseline_error": 76.94208494208493,
+          "dirty": false,
+          "fit": {
+            "class": 1,
+            "weighted_probs": [
+              0.18146718146718147,
+              0.8185328185328186
+            ],
+            "probs": [
+              0.18146718146718147,
+              0.8185328185328186
+            ],
+            "sizes": [
+              47,
+              212
+            ],
+            "logistic_fit": {
+              "beta": {
+                "n": 112,
+                "nzval": [],
+                "nzind": []
+              },
+              "offset": null,
+              "standardized_beta": {
+                "n": 112,
+                "nzval": [],
+                "nzind": []
+              },
+              "constant_offset": null,
+              "constant_error": 76.94208494208493
+            }
+          }
+        },
+        {
+          "id": 15,
+          "parent": 1,
+          "lower_child": 16,
+          "upper_child": 17,
+          "depth": 1,
+          "split_type": "MIXED",
+          "split_mixed": {
+            "parallel_split": {
+              "feature": 100,
+              "threshold": 0.5
+            },
+            "ordinal_split": {
+              "feature": 0,
+              "split": []
+            },
+            "categoric_split": {
+              "feature": 100,
+              "split": [
+                false
+              ]
+            },
+            "do_parallel": true,
+            "do_ordinal": false
+          },
+          "split_hyperplane": {
+            "standardized_weights": {
+              "n": 112,
+              "nzval": [],
+              "nzind": []
+            },
+            "threshold": 0.0,
+            "weights": {
+              "n": 112,
+              "nzval": [],
+              "nzind": []
+            },
+            "complexity": 0.0
+          },
+          "missingdatamode": "NONE",
+          "raw_error": 770.0718874875066,
+          "baseline_error": 821.9496211345486,
+          "subtree_complexity": 4.0,
+          "n_node_samples": 4883,
+          "weighted_n_node_samples": 4883.0,
+          "orig_raw_error": 770.0718874875066,
+          "orig_baseline_error": 821.9496211345486,
+          "dirty": false,
+          "fit": {
+            "class": 1,
+            "weighted_probs": [
+              0.09277083759983616,
+              0.9072291624001638
+            ],
+            "probs": [
+              0.09277083759983616,
+              0.9072291624001638
+            ],
+            "sizes": [
+              453,
+              4430
+            ],
+            "logistic_fit": {
+              "beta": {
+                "n": 112,
+                "nzval": [],
+                "nzind": []
+              },
+              "offset": null,
+              "standardized_beta": {
+                "n": 112,
+                "nzval": [],
+                "nzind": []
+              },
+              "constant_offset": null,
+              "constant_error": 821.9496211345486
+            }
+          }
+        },
+        {
+          "id": 16,
+          "parent": 15,
+          "lower_child": -2,
+          "upper_child": -2,
+          "depth": 2,
+          "split_type": "LEAF",
+          "split_mixed": {
+            "parallel_split": {
+              "feature": 0,
+              "threshold": 0.0
+            },
+            "ordinal_split": {
+              "feature": 0,
+              "split": []
+            },
+            "categoric_split": {
+              "feature": 0,
+              "split": [
+                false
+              ]
+            },
+            "do_parallel": false,
+            "do_ordinal": false
+          },
+          "split_hyperplane": {
+            "standardized_weights": {
+              "n": 112,
+              "nzval": [],
+              "nzind": []
+            },
+            "threshold": 0.0,
+            "weights": {
+              "n": 112,
+              "nzval": [],
+              "nzind": []
+            },
+            "complexity": 0.0
+          },
+          "missingdatamode": "NONE",
+          "raw_error": 0.0,
+          "baseline_error": 0.0,
+          "subtree_complexity": 0.0,
+          "n_node_samples": 1453,
+          "weighted_n_node_samples": 1453.0,
+          "orig_raw_error": 0.0,
+          "orig_baseline_error": 0.0,
+          "dirty": false,
+          "fit": {
+            "class": 2,
+            "weighted_probs": [
+              0.0,
+              1.0
+            ],
+            "probs": [
+              0.0,
+              1.0
+            ],
+            "sizes": [
+              0,
+              1453
+            ],
+            "logistic_fit": {
+              "beta": {
+                "n": 112,
+                "nzval": [],
+                "nzind": []
+              },
+              "offset": null,
+              "standardized_beta": {
+                "n": 112,
+                "nzval": [],
+                "nzind": []
+              },
+              "constant_offset": null,
+              "constant_error": 0.0
+            }
+          }
+        },
+        {
+          "id": 17,
+          "parent": 15,
+          "lower_child": 18,
+          "upper_child": 23,
+          "depth": 2,
+          "split_type": "MIXED",
+          "split_mixed": {
+            "parallel_split": {
+              "feature": 3,
+              "threshold": 0.5
+            },
+            "ordinal_split": {
+              "feature": 0,
+              "split": []
+            },
+            "categoric_split": {
+              "feature": 3,
+              "split": [
+                false
+              ]
+            },
+            "do_parallel": true,
+            "do_ordinal": false
+          },
+          "split_hyperplane": {
+            "standardized_weights": {
+              "n": 112,
+              "nzval": [],
+              "nzind": []
+            },
+            "threshold": 0.0,
+            "weights": {
+              "n": 112,
+              "nzval": [],
+              "nzind": []
+            },
+            "complexity": 0.0
+          },
+          "missingdatamode": "NONE",
+          "raw_error": 770.0718874875066,
+          "baseline_error": 786.3446064139944,
+          "subtree_complexity": 3.0,
+          "n_node_samples": 3430,
+          "weighted_n_node_samples": 3430.0,
+          "orig_raw_error": 770.0718874875066,
+          "orig_baseline_error": 786.3446064139944,
+          "dirty": false,
+          "fit": {
+            "class": 1,
+            "weighted_probs": [
+              0.13206997084548106,
+              0.867930029154519
+            ],
+            "probs": [
+              0.13206997084548106,
+              0.867930029154519
+            ],
+            "sizes": [
+              453,
+              2977
+            ],
+            "logistic_fit": {
+              "beta": {
+                "n": 112,
+                "nzval": [],
+                "nzind": []
+              },
+              "offset": null,
+              "standardized_beta": {
+                "n": 112,
+                "nzval": [],
+                "nzind": []
+              },
+              "constant_offset": null,
+              "constant_error": 786.3446064139944
+            }
+          }
+        },
+        {
+          "id": 18,
+          "parent": 17,
+          "lower_child": 19,
+          "upper_child": 20,
+          "depth": 3,
+          "split_type": "MIXED",
+          "split_mixed": {
+            "parallel_split": {
+              "feature": 10,
+              "threshold": 49000.0
+            },
+            "ordinal_split": {
+              "feature": 0,
+              "split": []
+            },
+            "categoric_split": {
+              "feature": 10,
+              "split": [
+                false
+              ]
+            },
+            "do_parallel": true,
+            "do_ordinal": false
+          },
+          "split_hyperplane": {
+            "standardized_weights": {
+              "n": 112,
+              "nzval": [],
+              "nzind": []
+            },
+            "threshold": 0.0,
+            "weights": {
+              "n": 112,
+              "nzval": [],
+              "nzind": []
+            },
+            "complexity": 0.0
+          },
+          "missingdatamode": "NONE",
+          "raw_error": 460.0265225959878,
+          "baseline_error": 467.17549668874176,
+          "subtree_complexity": 2.0,
+          "n_node_samples": 2416,
+          "weighted_n_node_samples": 2416.0,
+          "orig_raw_error": 460.0265225959878,
+          "orig_baseline_error": 467.17549668874176,
+          "dirty": false,
+          "fit": {
+            "class": 1,
+            "weighted_probs": [
+              0.10844370860927152,
+              0.8915562913907285
+            ],
+            "probs": [
+              0.10844370860927152,
+              0.8915562913907285
+            ],
+            "sizes": [
+              262,
+              2154
+            ],
+            "logistic_fit": {
+              "beta": {
+                "n": 112,
+                "nzval": [],
+                "nzind": []
+              },
+              "offset": null,
+              "standardized_beta": {
+                "n": 112,
+                "nzval": [],
+                "nzind": []
+              },
+              "constant_offset": null,
+              "constant_error": 467.17549668874176
+            }
+          }
+        },
+        {
+          "id": 19,
+          "parent": 18,
+          "lower_child": 32,
+          "upper_child": 33,
+          "depth": 4,
+          "split_type": "LEAF",
+          "split_mixed": {
+            "parallel_split": {
+              "feature": 0,
+              "threshold": 0.0
+            },
+            "ordinal_split": {
+              "feature": 0,
+              "split": []
+            },
+            "categoric_split": {
+              "feature": 0,
+              "split": [
+                false
+              ]
+            },
+            "do_parallel": true,
+            "do_ordinal": false
+          },
+          "split_hyperplane": {
+            "standardized_weights": {
+              "n": 112,
+              "nzval": [],
+              "nzind": []
+            },
+            "threshold": 0.0,
+            "weights": {
+              "n": 112,
+              "nzval": [],
+              "nzind": []
+            },
+            "complexity": 0.0
+          },
+          "missingdatamode": "NONE",
+          "raw_error": 176.54021244309558,
+          "baseline_error": 176.54021244309558,
+          "subtree_complexity": 0.0,
+          "n_node_samples": 659,
+          "weighted_n_node_samples": 659.0,
+          "orig_raw_error": 176.54021244309558,
+          "orig_baseline_error": 176.54021244309558,
+          "dirty": false,
+          "fit": {
+            "class": 1,
+            "weighted_probs": [
+              0.15933232169954475,
+              0.8406676783004552
+            ],
+            "probs": [
+              0.15933232169954475,
+              0.8406676783004552
+            ],
+            "sizes": [
+              105,
+              554
+            ],
+            "logistic_fit": {
+              "beta": {
+                "n": 112,
+                "nzval": [],
+                "nzind": []
+              },
+              "offset": null,
+              "standardized_beta": {
+                "n": 112,
+                "nzval": [],
+                "nzind": []
+              },
+              "constant_offset": null,
+              "constant_error": 176.54021244309558
+            }
+          }
+        },
+        {
+          "id": 20,
+          "parent": 18,
+          "lower_child": 21,
+          "upper_child": 22,
+          "depth": 4,
+          "split_type": "MIXED",
+          "split_mixed": {
+            "parallel_split": {
+              "feature": 2,
+              "threshold": 63.97499999999999
+            },
+            "ordinal_split": {
+              "feature": 0,
+              "split": []
+            },
+            "categoric_split": {
+              "feature": 2,
+              "split": [
+                false
+              ]
+            },
+            "do_parallel": true,
+            "do_ordinal": false
+          },
+          "split_hyperplane": {
+            "standardized_weights": {
+              "n": 112,
+              "nzval": [],
+              "nzind": []
+            },
+            "threshold": 0.0,
+            "weights": {
+              "n": 112,
+              "nzval": [],
+              "nzind": []
+            },
+            "complexity": 0.0
+          },
+          "missingdatamode": "NONE",
+          "raw_error": 283.4863101528922,
+          "baseline_error": 285.9419464997154,
+          "subtree_complexity": 1.0,
+          "n_node_samples": 1757,
+          "weighted_n_node_samples": 1757.0,
+          "orig_raw_error": 283.4863101528922,
+          "orig_baseline_error": 285.9419464997154,
+          "dirty": false,
+          "fit": {
+            "class": 1,
+            "weighted_probs": [
+              0.08935685828116106,
+              0.910643141718839
+            ],
+            "probs": [
+              0.08935685828116106,
+              0.910643141718839
+            ],
+            "sizes": [
+              157,
+              1600
+            ],
+            "logistic_fit": {
+              "beta": {
+                "n": 112,
+                "nzval": [],
+                "nzind": []
+              },
+              "offset": null,
+              "standardized_beta": {
+                "n": 112,
+                "nzval": [],
+                "nzind": []
+              },
+              "constant_offset": null,
+              "constant_error": 285.9419464997154
+            }
+          }
+        },
+        {
+          "id": 21,
+          "parent": 20,
+          "lower_child": -2,
+          "upper_child": -2,
+          "depth": 5,
+          "split_type": "LEAF",
+          "split_mixed": {
+            "parallel_split": {
+              "feature": 0,
+              "threshold": 0.0
+            },
+            "ordinal_split": {
+              "feature": 0,
+              "split": []
+            },
+            "categoric_split": {
+              "feature": 0,
+              "split": [
+                false
+              ]
+            },
+            "do_parallel": false,
+            "do_ordinal": false
+          },
+          "split_hyperplane": {
+            "standardized_weights": {
+              "n": 112,
+              "nzval": [],
+              "nzind": []
+            },
+            "threshold": 0.0,
+            "weights": {
+              "n": 112,
+              "nzval": [],
+              "nzind": []
+            },
+            "complexity": 0.0
+          },
+          "missingdatamode": "NONE",
+          "raw_error": 279.5307545973367,
+          "baseline_error": 279.5307545973367,
+          "subtree_complexity": 0.0,
+          "n_node_samples": 1577,
+          "weighted_n_node_samples": 1577.0,
+          "orig_raw_error": 279.5307545973367,
+          "orig_baseline_error": 279.5307545973367,
+          "dirty": false,
+          "fit": {
+            "class": 1,
+            "weighted_probs": [
+              0.09828788839568801,
+              0.901712111604312
+            ],
+            "probs": [
+              0.09828788839568801,
+              0.901712111604312
+            ],
+            "sizes": [
+              155,
+              1422
+            ],
+            "logistic_fit": {
+              "beta": {
+                "n": 112,
+                "nzval": [],
+                "nzind": []
+              },
+              "offset": null,
+              "standardized_beta": {
+                "n": 112,
+                "nzval": [],
+                "nzind": []
+              },
+              "constant_offset": null,
+              "constant_error": 279.5307545973367
+            }
+          }
+        },
+        {
+          "id": 22,
+          "parent": 20,
+          "lower_child": -2,
+          "upper_child": -2,
+          "depth": 5,
+          "split_type": "LEAF",
+          "split_mixed": {
+            "parallel_split": {
+              "feature": 0,
+              "threshold": 0.0
+            },
+            "ordinal_split": {
+              "feature": 0,
+              "split": []
+            },
+            "categoric_split": {
+              "feature": 0,
+              "split": [
+                false
+              ]
+            },
+            "do_parallel": false,
+            "do_ordinal": false
+          },
+          "split_hyperplane": {
+            "standardized_weights": {
+              "n": 112,
+              "nzval": [],
+              "nzind": []
+            },
+            "threshold": 0.0,
+            "weights": {
+              "n": 112,
+              "nzval": [],
+              "nzind": []
+            },
+            "complexity": 0.0
+          },
+          "missingdatamode": "NONE",
+          "raw_error": 3.9555555555555486,
+          "baseline_error": 3.9555555555555486,
+          "subtree_complexity": 0.0,
+          "n_node_samples": 180,
+          "weighted_n_node_samples": 180.0,
+          "orig_raw_error": 3.9555555555555486,
+          "orig_baseline_error": 3.9555555555555486,
+          "dirty": false,
+          "fit": {
+            "class": 2,
+            "weighted_probs": [
+              0.011111111111111112,
+              0.9888888888888889
+            ],
+            "probs": [
+              0.011111111111111112,
+              0.9888888888888889
+            ],
+            "sizes": [
+              2,
+              178
+            ],
+            "logistic_fit": {
+              "beta": {
+                "n": 112,
+                "nzval": [],
+                "nzind": []
+              },
+              "offset": null,
+              "standardized_beta": {
+                "n": 112,
+                "nzval": [],
+                "nzind": []
+              },
+              "constant_offset": null,
+              "constant_error": 3.9555555555555486
+            }
+          }
+        },
+        {
+          "id": 23,
+          "parent": 17,
+          "lower_child": 38,
+          "upper_child": 39,
+          "depth": 3,
+          "split_type": "LEAF",
+          "split_mixed": {
+            "parallel_split": {
+              "feature": 0,
+              "threshold": 0.0
+            },
+            "ordinal_split": {
+              "feature": 0,
+              "split": []
+            },
+            "categoric_split": {
+              "feature": 0,
+              "split": [
+                false
+              ]
+            },
+            "do_parallel": true,
+            "do_ordinal": false
+          },
+          "split_hyperplane": {
+            "standardized_weights": {
+              "n": 112,
+              "nzval": [],
+              "nzind": []
+            },
+            "threshold": 0.0,
+            "weights": {
+              "n": 112,
+              "nzval": [],
+              "nzind": []
+            },
+            "complexity": 0.0
+          },
+          "missingdatamode": "NONE",
+          "raw_error": 310.0453648915187,
+          "baseline_error": 310.0453648915187,
+          "subtree_complexity": 0.0,
+          "n_node_samples": 1014,
+          "weighted_n_node_samples": 1014.0,
+          "orig_raw_error": 310.0453648915187,
+          "orig_baseline_error": 310.0453648915187,
+          "dirty": false,
+          "fit": {
+            "class": 1,
+            "weighted_probs": [
+              0.1883629191321499,
+              0.8116370808678501
+            ],
+            "probs": [
+              0.1883629191321499,
+              0.8116370808678501
+            ],
+            "sizes": [
+              191,
+              823
+            ],
+            "logistic_fit": {
+              "beta": {
+                "n": 112,
+                "nzval": [],
+                "nzind": []
+              },
+              "offset": null,
+              "standardized_beta": {
+                "n": 112,
+                "nzval": [],
+                "nzind": []
+              },
+              "constant_offset": null,
+              "constant_error": 310.0453648915187
+            }
+          }
+        }
+      ],
+      "capacity": 23
+    }
+  ],
+  "regression_features": [],
+  "normalize_X": true,
+  "criterion": "gini",
+  "treat_unknown_level_missing": false,
+  "random_seed": 42,
+  "parallel_processes": null,
+  "num_threads": null,
+  "show_progress": false,
+  "prb_": {
+    "data": {
+      "features": {
+        "n_samples": 0,
+        "n_features": 112,
+        "feature_names": [
+          "dated",
+          "height",
+          "inscribed",
+          "signed",
+          "stamped",
+          "width",
+          "aspect_ratio",
+          "area",
+          "low_estimate",
+          "high_estimate",
+          "Alberto Giacometti",
+          "Alexej Von Jawlensky",
+          "Alfred Sisley",
+          "Alighiero Boetti",
+          "Andy Warhol",
+          "Bernard Buffet",
+          "Camille Jacob Pissarro",
+          "Chu Teh Chun (zhu Dequn)",
+          "Chu Teh-Chun",
+          "Cindy Sherman",
+          "Claude Monet",
+          "Cy Twombly",
+          "Damien Hirst",
+          "Edgar Degas",
+          "Egon Schiele",
+          "Emil Nolde",
+          "Eugène Louis Boudin",
+          "Fernand Léger",
+          "Fernando Botero",
+          "Francis Newton Souza",
+          "Francis Picabia",
+          "Gerhard Richter",
+          "Giorgio De Chirico",
+          "Henri Emile Benoit Matisse",
+          "Henry Moore",
+          "Ivan Konstantinovich Aivazovsky",
+          "Jean Dubuffet",
+          "Jean Michel Basquiat",
+          "Joan Miró",
+          "Josef Albers",
+          "Kees Van Dongen",
+          "Keith Haring",
+          "Laurence Stephen Lowry",
+          "Le Pho",
+          "Lucio Fontana",
+          "Maqbool Fida Husain",
+          "Marc Chagall",
+          "Maurice De Vlaminck",
+          "Maurice Utrillo",
+          "Max Ernst",
+          "Pablo Ruiz Picasso",
+          "Paul Klee",
+          "Pierre Auguste Renoir",
+          "Pierre Bonnard",
+          "Pu Ru",
+          "Qi Baishi",
+          "Raoul Dufy",
+          "René Magritte",
+          "Richard Prince",
+          "Roy Lichtenstein",
+          "Salvador Dalí",
+          "Sam Francis",
+          "Serge Poliakoff",
+          "Takashi Murakami",
+          "Ting Walasse",
+          "Tom Wesselmann",
+          "Wassily Kandinsky",
+          "Willem De Kooning",
+          "Wu Guanzhong",
+          "Xu Beihong",
+          "Yayoi Kusama",
+          "Yoshitomo Nara",
+          "Zao Wou-Ki",
+          "Zhang Daqian",
+          "Zhang Xiaogang",
+          "Zhu (ju Ming) Ming",
+          "artist_second_tier",
+          "artist_third_tier",
+          "Austria",
+          "Belgium",
+          "China",
+          "Colombia",
+          "England",
+          "France",
+          "Germany",
+          "India",
+          "Indonesia",
+          "Italy",
+          "Japan",
+          "Netherlands",
+          "Russia",
+          "Spain",
+          "Switzerland",
+          "Taiwan",
+          "USA",
+          "United States of America",
+          "Vietnam",
+          "other_country",
+          "Artcurial",
+          "Christies",
+          "Dorotheum",
+          "Phillips",
+          "Sothebys",
+          "Villa Grisebach Auktionen",
+          "other_auction_house",
+          "mixed media",
+          "painting",
+          "paper",
+          "photograph",
+          "print",
+          "sculpture",
+          "other_category"
+        ],
+        "X_numeric": [
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          []
+        ],
+        "X_numeric_means": [
+          0.4857495410359045,
+          32.69627080386411,
+          0.07241099106148614,
+          0.7799079062208445,
+          0.025521413308453967,
+          32.174162879585666,
+          1.1559283113130903,
+          1463.5951175249063,
+          575429.9269308663,
+          834620.1606317293,
+          0.0016552803442983115,
+          0.004213440876395702,
+          0.003611520751196316,
+          0.0022271044632377283,
+          0.03494146326782436,
+          0.0051163210641947815,
+          0.00472507298281518,
+          0.006410449333373461,
+          0.0035513287386763777,
+          0.0038823848075360398,
+          0.005387185120534505,
+          0.004213440876395702,
+          0.00954043398441027,
+          0.004273632888915641,
+          0.0051163210641947815,
+          0.004935745026634965,
+          0.004815361001595088,
+          0.008456977759051373,
+          0.006320161314593554,
+          0.003852288801276071,
+          0.004634784964035273,
+          0.010112258103349685,
+          0.005567761158094321,
+          0.008336593734011497,
+          0.0015649923255184038,
+          0.004273632888915641,
+          0.007794865621332049,
+          0.008487073765311343,
+          0.010112258103349685,
+          0.00559785716435429,
+          0.006410449333373461,
+          0.004183344870135733,
+          0.00520660908297469,
+          0.005056129051674843,
+          0.012700514641707045,
+          0.006109489270773768,
+          0.0159809793240437,
+          0.004875553014115027,
+          0.005236705089234658,
+          0.00517651307671472,
+          0.02753784572787191,
+          0.004123152857615794,
+          0.013783970867065941,
+          0.0051163210641947815,
+          0.006079393264513799,
+          0.010503506184729287,
+          0.007584193577512264,
+          0.0069521774460529085,
+          0.0065910253709332775,
+          0.006410449333373461,
+          0.005748337195654137,
+          0.0049658410328949345,
+          0.004424112920215487,
+          0.0035513287386763777,
+          0.003581424744936347,
+          0.00475516898907515,
+          0.004213440876395702,
+          0.004785264995335119,
+          0.00821620970897162,
+          0.005447377133054444,
+          0.00945014596563036,
+          0.007042465464832817,
+          0.00475516898907515,
+          0.019050771962560567,
+          0.004514400938995395,
+          0.0038823848075360398,
+          0.35329701748577963,
+          0.18897282330634724,
+          0.007524001564992325,
+          0.011797634453907966,
+          0.1469587985674301,
+          0.006320161314593554,
+          0.05781442802540103,
+          0.18457880639239174,
+          0.05435338730550456,
+          0.01426550696722545,
+          0.009420049959370392,
+          0.056369819724922506,
+          0.029825142203629577,
+          0.026935925602672526,
+          0.029975622234929424,
+          0.05311945104884582,
+          0.012730610647967015,
+          0.0064405453396334305,
+          0.005296897101754597,
+          0.214704908658621,
+          0.01035302615342944,
+          0.06121527673277756,
+          0.007885153640111957,
+          0.49535016703283474,
+          0.004845457007855058,
+          0.0297047581785897,
+          0.3850182080837873,
+          0.0064706413458934,
+          0.07072561471092786,
+          0.009690914015710116,
+          0.6397508050681675,
+          0.2572606615102176,
+          0.002618352544617329,
+          0.025491317302194,
+          0.0463779456466127,
+          0.018810003912480815
+        ],
+        "n_numeric_features": 112,
+        "n_numeric_orig_features": 112,
+        "X_mins": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.59,
+          0.0,
+          0.0,
+          199.4563155898344,
+          635.03966472085,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "X_maxs": [
+          1.0,
+          1983.46,
+          1.0,
+          1.0,
+          1.0,
+          3022.13,
+          78.86,
+          120885.2,
+          4.0e7,
+          2.8e8,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "numeric_features": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30,
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          40,
+          41,
+          42,
+          43,
+          44,
+          45,
+          46,
+          47,
+          48,
+          49,
+          50,
+          51,
+          52,
+          53,
+          54,
+          55,
+          56,
+          57,
+          58,
+          59,
+          60,
+          61,
+          62,
+          63,
+          64,
+          65,
+          66,
+          67,
+          68,
+          69,
+          70,
+          71,
+          72,
+          73,
+          74,
+          75,
+          76,
+          77,
+          78,
+          79,
+          80,
+          81,
+          82,
+          83,
+          84,
+          85,
+          86,
+          87,
+          88,
+          89,
+          90,
+          91,
+          92,
+          93,
+          94,
+          95,
+          96,
+          97,
+          98,
+          99,
+          100,
+          101,
+          102,
+          103,
+          104,
+          105,
+          106,
+          107,
+          108,
+          109,
+          110,
+          111,
+          112
+        ],
+        "numeric_feature_map": {
+          "1": 1,
+          "2": 2,
+          "3": 3,
+          "4": 4,
+          "5": 5,
+          "6": 6,
+          "7": 7,
+          "8": 8,
+          "9": 9,
+          "10": 10,
+          "11": 11,
+          "12": 12,
+          "13": 13,
+          "14": 14,
+          "15": 15,
+          "16": 16,
+          "17": 17,
+          "18": 18,
+          "19": 19,
+          "20": 20,
+          "21": 21,
+          "22": 22,
+          "23": 23,
+          "24": 24,
+          "25": 25,
+          "26": 26,
+          "27": 27,
+          "28": 28,
+          "29": 29,
+          "30": 30,
+          "31": 31,
+          "32": 32,
+          "33": 33,
+          "34": 34,
+          "35": 35,
+          "36": 36,
+          "37": 37,
+          "38": 38,
+          "39": 39,
+          "40": 40,
+          "41": 41,
+          "42": 42,
+          "43": 43,
+          "44": 44,
+          "45": 45,
+          "46": 46,
+          "47": 47,
+          "48": 48,
+          "49": 49,
+          "50": 50,
+          "51": 51,
+          "52": 52,
+          "53": 53,
+          "54": 54,
+          "55": 55,
+          "56": 56,
+          "57": 57,
+          "58": 58,
+          "59": 59,
+          "60": 60,
+          "61": 61,
+          "62": 62,
+          "63": 63,
+          "64": 64,
+          "65": 65,
+          "66": 66,
+          "67": 67,
+          "68": 68,
+          "69": 69,
+          "70": 70,
+          "71": 71,
+          "72": 72,
+          "73": 73,
+          "74": 74,
+          "75": 75,
+          "76": 76,
+          "77": 77,
+          "78": 78,
+          "79": 79,
+          "80": 80,
+          "81": 81,
+          "82": 82,
+          "83": 83,
+          "84": 84,
+          "85": 85,
+          "86": 86,
+          "87": 87,
+          "88": 88,
+          "89": 89,
+          "90": 90,
+          "91": 91,
+          "92": 92,
+          "93": 93,
+          "94": 94,
+          "95": 95,
+          "96": 96,
+          "97": 97,
+          "98": 98,
+          "99": 99,
+          "100": 100,
+          "101": 101,
+          "102": 102,
+          "103": 103,
+          "104": 104,
+          "105": 105,
+          "106": 106,
+          "107": 107,
+          "108": 108,
+          "109": 109,
+          "110": 110,
+          "111": 111,
+          "112": 112
+        },
+        "X_ordinal": [],
+        "X_ordinal_medians": [],
+        "n_ordinal_features": 0,
+        "n_ordinal_levels": [],
+        "n_max_ordinal_levels": 0,
+        "ordinal_labelmap": [],
+        "ordinal_features": [],
+        "ordinal_feature_map": {},
+        "X_categoric": [
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          []
+        ],
+        "X_categoric_modes": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "n_categoric_levels": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "n_max_categoric_levels": 1,
+        "onehot_start_index": [
+          112,
+          112,
+          112,
+          112,
+          112,
+          112,
+          112,
+          112,
+          112,
+          112,
+          112,
+          112,
+          112,
+          112,
+          112,
+          112,
+          112,
+          112,
+          112,
+          112,
+          112,
+          112,
+          112,
+          112,
+          112,
+          112,
+          112,
+          112,
+          112,
+          112,
+          112,
+          112,
+          112,
+          112,
+          112,
+          112,
+          112,
+          112,
+          112,
+          112,
+          112,
+          112,
+          112,
+          112,
+          112,
+          112,
+          112,
+          112,
+          112,
+          112,
+          112,
+          112,
+          112,
+          112,
+          112,
+          112,
+          112,
+          112,
+          112,
+          112,
+          112,
+          112,
+          112,
+          112,
+          112,
+          112,
+          112,
+          112,
+          112,
+          112,
+          112,
+          112,
+          112,
+          112,
+          112,
+          112,
+          112,
+          112,
+          112,
+          112,
+          112,
+          112,
+          112,
+          112,
+          112,
+          112,
+          112,
+          112,
+          112,
+          112,
+          112,
+          112,
+          112,
+          112,
+          112,
+          112,
+          112,
+          112,
+          112,
+          112,
+          112,
+          112,
+          112,
+          112,
+          112,
+          112,
+          112,
+          112,
+          112,
+          112,
+          112,
+          112,
+          112
+        ],
+        "categoric_labelmap": [
+          {
+            "levels": [
+              "missing"
+            ],
+            "level_type": {
+              "x": "Any"
+            }
+          },
+          {
+            "levels": [
+              "missing"
+            ],
+            "level_type": {
+              "x": "Any"
+            }
+          },
+          {
+            "levels": [
+              "missing"
+            ],
+            "level_type": {
+              "x": "Any"
+            }
+          },
+          {
+            "levels": [
+              "missing"
+            ],
+            "level_type": {
+              "x": "Any"
+            }
+          },
+          {
+            "levels": [
+              "missing"
+            ],
+            "level_type": {
+              "x": "Any"
+            }
+          },
+          {
+            "levels": [
+              "missing"
+            ],
+            "level_type": {
+              "x": "Any"
+            }
+          },
+          {
+            "levels": [
+              "missing"
+            ],
+            "level_type": {
+              "x": "Any"
+            }
+          },
+          {
+            "levels": [
+              "missing"
+            ],
+            "level_type": {
+              "x": "Any"
+            }
+          },
+          {
+            "levels": [
+              "missing"
+            ],
+            "level_type": {
+              "x": "Any"
+            }
+          },
+          {
+            "levels": [
+              "missing"
+            ],
+            "level_type": {
+              "x": "Any"
+            }
+          },
+          {
+            "levels": [
+              "missing"
+            ],
+            "level_type": {
+              "x": "Any"
+            }
+          },
+          {
+            "levels": [
+              "missing"
+            ],
+            "level_type": {
+              "x": "Any"
+            }
+          },
+          {
+            "levels": [
+              "missing"
+            ],
+            "level_type": {
+              "x": "Any"
+            }
+          },
+          {
+            "levels": [
+              "missing"
+            ],
+            "level_type": {
+              "x": "Any"
+            }
+          },
+          {
+            "levels": [
+              "missing"
+            ],
+            "level_type": {
+              "x": "Any"
+            }
+          },
+          {
+            "levels": [
+              "missing"
+            ],
+            "level_type": {
+              "x": "Any"
+            }
+          },
+          {
+            "levels": [
+              "missing"
+            ],
+            "level_type": {
+              "x": "Any"
+            }
+          },
+          {
+            "levels": [
+              "missing"
+            ],
+            "level_type": {
+              "x": "Any"
+            }
+          },
+          {
+            "levels": [
+              "missing"
+            ],
+            "level_type": {
+              "x": "Any"
+            }
+          },
+          {
+            "levels": [
+              "missing"
+            ],
+            "level_type": {
+              "x": "Any"
+            }
+          },
+          {
+            "levels": [
+              "missing"
+            ],
+            "level_type": {
+              "x": "Any"
+            }
+          },
+          {
+            "levels": [
+              "missing"
+            ],
+            "level_type": {
+              "x": "Any"
+            }
+          },
+          {
+            "levels": [
+              "missing"
+            ],
+            "level_type": {
+              "x": "Any"
+            }
+          },
+          {
+            "levels": [
+              "missing"
+            ],
+            "level_type": {
+              "x": "Any"
+            }
+          },
+          {
+            "levels": [
+              "missing"
+            ],
+            "level_type": {
+              "x": "Any"
+            }
+          },
+          {
+            "levels": [
+              "missing"
+            ],
+            "level_type": {
+              "x": "Any"
+            }
+          },
+          {
+            "levels": [
+              "missing"
+            ],
+            "level_type": {
+              "x": "Any"
+            }
+          },
+          {
+            "levels": [
+              "missing"
+            ],
+            "level_type": {
+              "x": "Any"
+            }
+          },
+          {
+            "levels": [
+              "missing"
+            ],
+            "level_type": {
+              "x": "Any"
+            }
+          },
+          {
+            "levels": [
+              "missing"
+            ],
+            "level_type": {
+              "x": "Any"
+            }
+          },
+          {
+            "levels": [
+              "missing"
+            ],
+            "level_type": {
+              "x": "Any"
+            }
+          },
+          {
+            "levels": [
+              "missing"
+            ],
+            "level_type": {
+              "x": "Any"
+            }
+          },
+          {
+            "levels": [
+              "missing"
+            ],
+            "level_type": {
+              "x": "Any"
+            }
+          },
+          {
+            "levels": [
+              "missing"
+            ],
+            "level_type": {
+              "x": "Any"
+            }
+          },
+          {
+            "levels": [
+              "missing"
+            ],
+            "level_type": {
+              "x": "Any"
+            }
+          },
+          {
+            "levels": [
+              "missing"
+            ],
+            "level_type": {
+              "x": "Any"
+            }
+          },
+          {
+            "levels": [
+              "missing"
+            ],
+            "level_type": {
+              "x": "Any"
+            }
+          },
+          {
+            "levels": [
+              "missing"
+            ],
+            "level_type": {
+              "x": "Any"
+            }
+          },
+          {
+            "levels": [
+              "missing"
+            ],
+            "level_type": {
+              "x": "Any"
+            }
+          },
+          {
+            "levels": [
+              "missing"
+            ],
+            "level_type": {
+              "x": "Any"
+            }
+          },
+          {
+            "levels": [
+              "missing"
+            ],
+            "level_type": {
+              "x": "Any"
+            }
+          },
+          {
+            "levels": [
+              "missing"
+            ],
+            "level_type": {
+              "x": "Any"
+            }
+          },
+          {
+            "levels": [
+              "missing"
+            ],
+            "level_type": {
+              "x": "Any"
+            }
+          },
+          {
+            "levels": [
+              "missing"
+            ],
+            "level_type": {
+              "x": "Any"
+            }
+          },
+          {
+            "levels": [
+              "missing"
+            ],
+            "level_type": {
+              "x": "Any"
+            }
+          },
+          {
+            "levels": [
+              "missing"
+            ],
+            "level_type": {
+              "x": "Any"
+            }
+          },
+          {
+            "levels": [
+              "missing"
+            ],
+            "level_type": {
+              "x": "Any"
+            }
+          },
+          {
+            "levels": [
+              "missing"
+            ],
+            "level_type": {
+              "x": "Any"
+            }
+          },
+          {
+            "levels": [
+              "missing"
+            ],
+            "level_type": {
+              "x": "Any"
+            }
+          },
+          {
+            "levels": [
+              "missing"
+            ],
+            "level_type": {
+              "x": "Any"
+            }
+          },
+          {
+            "levels": [
+              "missing"
+            ],
+            "level_type": {
+              "x": "Any"
+            }
+          },
+          {
+            "levels": [
+              "missing"
+            ],
+            "level_type": {
+              "x": "Any"
+            }
+          },
+          {
+            "levels": [
+              "missing"
+            ],
+            "level_type": {
+              "x": "Any"
+            }
+          },
+          {
+            "levels": [
+              "missing"
+            ],
+            "level_type": {
+              "x": "Any"
+            }
+          },
+          {
+            "levels": [
+              "missing"
+            ],
+            "level_type": {
+              "x": "Any"
+            }
+          },
+          {
+            "levels": [
+              "missing"
+            ],
+            "level_type": {
+              "x": "Any"
+            }
+          },
+          {
+            "levels": [
+              "missing"
+            ],
+            "level_type": {
+              "x": "Any"
+            }
+          },
+          {
+            "levels": [
+              "missing"
+            ],
+            "level_type": {
+              "x": "Any"
+            }
+          },
+          {
+            "levels": [
+              "missing"
+            ],
+            "level_type": {
+              "x": "Any"
+            }
+          },
+          {
+            "levels": [
+              "missing"
+            ],
+            "level_type": {
+              "x": "Any"
+            }
+          },
+          {
+            "levels": [
+              "missing"
+            ],
+            "level_type": {
+              "x": "Any"
+            }
+          },
+          {
+            "levels": [
+              "missing"
+            ],
+            "level_type": {
+              "x": "Any"
+            }
+          },
+          {
+            "levels": [
+              "missing"
+            ],
+            "level_type": {
+              "x": "Any"
+            }
+          },
+          {
+            "levels": [
+              "missing"
+            ],
+            "level_type": {
+              "x": "Any"
+            }
+          },
+          {
+            "levels": [
+              "missing"
+            ],
+            "level_type": {
+              "x": "Any"
+            }
+          },
+          {
+            "levels": [
+              "missing"
+            ],
+            "level_type": {
+              "x": "Any"
+            }
+          },
+          {
+            "levels": [
+              "missing"
+            ],
+            "level_type": {
+              "x": "Any"
+            }
+          },
+          {
+            "levels": [
+              "missing"
+            ],
+            "level_type": {
+              "x": "Any"
+            }
+          },
+          {
+            "levels": [
+              "missing"
+            ],
+            "level_type": {
+              "x": "Any"
+            }
+          },
+          {
+            "levels": [
+              "missing"
+            ],
+            "level_type": {
+              "x": "Any"
+            }
+          },
+          {
+            "levels": [
+              "missing"
+            ],
+            "level_type": {
+              "x": "Any"
+            }
+          },
+          {
+            "levels": [
+              "missing"
+            ],
+            "level_type": {
+              "x": "Any"
+            }
+          },
+          {
+            "levels": [
+              "missing"
+            ],
+            "level_type": {
+              "x": "Any"
+            }
+          },
+          {
+            "levels": [
+              "missing"
+            ],
+            "level_type": {
+              "x": "Any"
+            }
+          },
+          {
+            "levels": [
+              "missing"
+            ],
+            "level_type": {
+              "x": "Any"
+            }
+          },
+          {
+            "levels": [
+              "missing"
+            ],
+            "level_type": {
+              "x": "Any"
+            }
+          },
+          {
+            "levels": [
+              "missing"
+            ],
+            "level_type": {
+              "x": "Any"
+            }
+          },
+          {
+            "levels": [
+              "missing"
+            ],
+            "level_type": {
+              "x": "Any"
+            }
+          },
+          {
+            "levels": [
+              "missing"
+            ],
+            "level_type": {
+              "x": "Any"
+            }
+          },
+          {
+            "levels": [
+              "missing"
+            ],
+            "level_type": {
+              "x": "Any"
+            }
+          },
+          {
+            "levels": [
+              "missing"
+            ],
+            "level_type": {
+              "x": "Any"
+            }
+          },
+          {
+            "levels": [
+              "missing"
+            ],
+            "level_type": {
+              "x": "Any"
+            }
+          },
+          {
+            "levels": [
+              "missing"
+            ],
+            "level_type": {
+              "x": "Any"
+            }
+          },
+          {
+            "levels": [
+              "missing"
+            ],
+            "level_type": {
+              "x": "Any"
+            }
+          },
+          {
+            "levels": [
+              "missing"
+            ],
+            "level_type": {
+              "x": "Any"
+            }
+          },
+          {
+            "levels": [
+              "missing"
+            ],
+            "level_type": {
+              "x": "Any"
+            }
+          },
+          {
+            "levels": [
+              "missing"
+            ],
+            "level_type": {
+              "x": "Any"
+            }
+          },
+          {
+            "levels": [
+              "missing"
+            ],
+            "level_type": {
+              "x": "Any"
+            }
+          },
+          {
+            "levels": [
+              "missing"
+            ],
+            "level_type": {
+              "x": "Any"
+            }
+          },
+          {
+            "levels": [
+              "missing"
+            ],
+            "level_type": {
+              "x": "Any"
+            }
+          },
+          {
+            "levels": [
+              "missing"
+            ],
+            "level_type": {
+              "x": "Any"
+            }
+          },
+          {
+            "levels": [
+              "missing"
+            ],
+            "level_type": {
+              "x": "Any"
+            }
+          },
+          {
+            "levels": [
+              "missing"
+            ],
+            "level_type": {
+              "x": "Any"
+            }
+          },
+          {
+            "levels": [
+              "missing"
+            ],
+            "level_type": {
+              "x": "Any"
+            }
+          },
+          {
+            "levels": [
+              "missing"
+            ],
+            "level_type": {
+              "x": "Any"
+            }
+          },
+          {
+            "levels": [
+              "missing"
+            ],
+            "level_type": {
+              "x": "Any"
+            }
+          },
+          {
+            "levels": [
+              "missing"
+            ],
+            "level_type": {
+              "x": "Any"
+            }
+          },
+          {
+            "levels": [
+              "missing"
+            ],
+            "level_type": {
+              "x": "Any"
+            }
+          },
+          {
+            "levels": [
+              "missing"
+            ],
+            "level_type": {
+              "x": "Any"
+            }
+          },
+          {
+            "levels": [
+              "missing"
+            ],
+            "level_type": {
+              "x": "Any"
+            }
+          },
+          {
+            "levels": [
+              "missing"
+            ],
+            "level_type": {
+              "x": "Any"
+            }
+          },
+          {
+            "levels": [
+              "missing"
+            ],
+            "level_type": {
+              "x": "Any"
+            }
+          },
+          {
+            "levels": [
+              "missing"
+            ],
+            "level_type": {
+              "x": "Any"
+            }
+          },
+          {
+            "levels": [
+              "missing"
+            ],
+            "level_type": {
+              "x": "Any"
+            }
+          },
+          {
+            "levels": [
+              "missing"
+            ],
+            "level_type": {
+              "x": "Any"
+            }
+          },
+          {
+            "levels": [
+              "missing"
+            ],
+            "level_type": {
+              "x": "Any"
+            }
+          },
+          {
+            "levels": [
+              "missing"
+            ],
+            "level_type": {
+              "x": "Any"
+            }
+          },
+          {
+            "levels": [
+              "missing"
+            ],
+            "level_type": {
+              "x": "Any"
+            }
+          },
+          {
+            "levels": [
+              "missing"
+            ],
+            "level_type": {
+              "x": "Any"
+            }
+          },
+          {
+            "levels": [
+              "missing"
+            ],
+            "level_type": {
+              "x": "Any"
+            }
+          },
+          {
+            "levels": [
+              "missing"
+            ],
+            "level_type": {
+              "x": "Any"
+            }
+          },
+          {
+            "levels": [
+              "missing"
+            ],
+            "level_type": {
+              "x": "Any"
+            }
+          }
+        ],
+        "missing_per_feature": {},
+        "missing_per_sample": {},
+        "had_missing": false,
+        "feature_names_numeric": [
+          "dated",
+          "height",
+          "inscribed",
+          "signed",
+          "stamped",
+          "width",
+          "aspect_ratio",
+          "area",
+          "low_estimate",
+          "high_estimate",
+          "Alberto Giacometti",
+          "Alexej Von Jawlensky",
+          "Alfred Sisley",
+          "Alighiero Boetti",
+          "Andy Warhol",
+          "Bernard Buffet",
+          "Camille Jacob Pissarro",
+          "Chu Teh Chun (zhu Dequn)",
+          "Chu Teh-Chun",
+          "Cindy Sherman",
+          "Claude Monet",
+          "Cy Twombly",
+          "Damien Hirst",
+          "Edgar Degas",
+          "Egon Schiele",
+          "Emil Nolde",
+          "Eugène Louis Boudin",
+          "Fernand Léger",
+          "Fernando Botero",
+          "Francis Newton Souza",
+          "Francis Picabia",
+          "Gerhard Richter",
+          "Giorgio De Chirico",
+          "Henri Emile Benoit Matisse",
+          "Henry Moore",
+          "Ivan Konstantinovich Aivazovsky",
+          "Jean Dubuffet",
+          "Jean Michel Basquiat",
+          "Joan Miró",
+          "Josef Albers",
+          "Kees Van Dongen",
+          "Keith Haring",
+          "Laurence Stephen Lowry",
+          "Le Pho",
+          "Lucio Fontana",
+          "Maqbool Fida Husain",
+          "Marc Chagall",
+          "Maurice De Vlaminck",
+          "Maurice Utrillo",
+          "Max Ernst",
+          "Pablo Ruiz Picasso",
+          "Paul Klee",
+          "Pierre Auguste Renoir",
+          "Pierre Bonnard",
+          "Pu Ru",
+          "Qi Baishi",
+          "Raoul Dufy",
+          "René Magritte",
+          "Richard Prince",
+          "Roy Lichtenstein",
+          "Salvador Dalí",
+          "Sam Francis",
+          "Serge Poliakoff",
+          "Takashi Murakami",
+          "Ting Walasse",
+          "Tom Wesselmann",
+          "Wassily Kandinsky",
+          "Willem De Kooning",
+          "Wu Guanzhong",
+          "Xu Beihong",
+          "Yayoi Kusama",
+          "Yoshitomo Nara",
+          "Zao Wou-Ki",
+          "Zhang Daqian",
+          "Zhang Xiaogang",
+          "Zhu (ju Ming) Ming",
+          "artist_second_tier",
+          "artist_third_tier",
+          "Austria",
+          "Belgium",
+          "China",
+          "Colombia",
+          "England",
+          "France",
+          "Germany",
+          "India",
+          "Indonesia",
+          "Italy",
+          "Japan",
+          "Netherlands",
+          "Russia",
+          "Spain",
+          "Switzerland",
+          "Taiwan",
+          "USA",
+          "United States of America",
+          "Vietnam",
+          "other_country",
+          "Artcurial",
+          "Christies",
+          "Dorotheum",
+          "Phillips",
+          "Sothebys",
+          "Villa Grisebach Auktionen",
+          "other_auction_house",
+          "mixed media",
+          "painting",
+          "paper",
+          "photograph",
+          "print",
+          "sculpture",
+          "other_category"
+        ]
+      },
+      "target": {
+        "y": [],
+        "classes": {
+          "levels": [
+            0,
+            1
+          ],
+          "level_type": {
+            "x": "Int64"
+          }
+        },
+        "n_classes": 2,
+        "display_class": {
+          "x": 0
+        }
+      },
+      "sample_weight": [],
+      "sample_inds": []
+    },
+    "baseline": {
+      "baseline_error": 1351.3425828405052
+    }
+  },
+  "cpu_time_": 0.5002741813659668,
+  "checkpoint_file": null,
+  "checkpoint_dir": null,
+  "checkpoint_max_files": null,
+  "_julia_type": "OptimalTreeClassifier"
+}
